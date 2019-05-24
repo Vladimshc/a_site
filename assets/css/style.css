@@ -1338,3 +1338,416 @@ footer {
         display: none;
     }
 }
+
+/* ------------------------------------------
+  slide 1 section
+--------------------------------------------- */
+.slide-1-head{
+ display: inline-block;
+}
+
+.slide-1-video{
+    width: max-content;
+    margin-top: 70px !important;
+}
+
+
+.white {
+     color: rgba(247, 250, 251, 1);
+     -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .3);
+     text-shadow: 0 0 35px rgba(0, 0, 0, .3);
+    width: 100%;
+ }
+
+.header-1 .social-icons {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    right: 0;
+    padding: 0;
+    z-index: 3
+}
+
+.header-1 .social-icons ul {
+    margin: auto 0;
+    padding-bottom: 50px;
+}
+
+.header-1 .social-icons li {
+    padding: 10px 15px;
+    margin: 10px 30px;
+    /*border-radius: 4px;*/
+    list-style-type: none;
+    text-align: center;
+}
+
+.header-1 .social-icons li:hover {
+    background: rgba(247, 250, 251, .3);
+}
+
+.header-1 .social-icons li a {
+    font-size: 23px;
+    color: rgba(247, 250, 251, 1);
+    -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.social-icons li a:hover {
+    color: rgba(247, 250, 251, 1);
+}
+
+.header-1 {
+    overflow: hidden;
+}
+
+.header-1 .header-phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.header-1 .header-phone .ilustration {
+    margin: auto;
+}
+
+.header-1 .main-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    padding: 150px 0 200px;
+}
+
+.header-1 .main-title div {
+    padding: 0 15px;
+    margin: auto 0;
+}
+
+.header-1 .wrap {
+    border-right: solid 2px;
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+
+.header-carousel .owl-item {
+    overflow: hidden;
+}
+
+.header-carousel .active .background-img {
+    -webkit-animation: fadeIn 1s linear;
+    animation: fadeIn 1s linear;
+}
+
+.header-carousel .active .main-title h1,
+.header-carousel .active .main-title .h1 {
+    -webkit-animation: bounceInLeft 2.1s linear;
+    animation: bounceInLeft 2.1s linear;
+}
+
+.header-carousel .active .main-title h3 {
+    -webkit-animation: bounceInLeft 2.2s linear;
+    animation: bounceInLeft 2.2s linear;
+}
+
+/* -------------------------------------------
+
+    Buttons, inputs
+
+--------------------------------------------- */
+
+.appstore,
+.playmarket,
+.order,
+.submit {
+    cursor: pointer !important;
+    font-size: 16px !important;
+    padding: 15px 30px !important;
+    height: 60px;
+    line-height: 60px;
+    color: rgba(247, 250, 251, 1);
+    background-color: #263238;
+    font-weight: bold;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50px !important;
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .3);
+    border: none;
+    margin: 7.5px 7.5px 7.5px 0;
+    z-index: 10000;
+}
+
+.playmarket .fa,
+.appstore .fa,
+.order .fa,
+.submit .fa {
+    outline: inherit;
+    position: relative;
+    top: 3px;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.submit:hover,
+.order:hover,
+.playmarket:hover,
+.appstore:hover,
+.submit:focus,
+.order:focus,
+.playmarket:focus,
+.appstore:focus {
+    text-decoration: none !important;
+    color: rgba(247, 250, 251, 1) !important;
+    border-radius: 4px !important;
+}
+
+
+/* -------------------------------------------
+
+    Iphone X css frame
+
+--------------------------------------------- */
+
+.iphone-x {
+    margin: 0 auto;
+    width: 300px;
+    height: 650px;
+    position: relative;
+    background-color: #000;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 40px 85px 13px rgba(15, 15, 15, .5), 0px 0px 0px 15px #111;
+    box-shadow: 0px 0px 0px 12px #1f1f1f, -5px 60px 40px 40px rgba(15, 15, 15, .4), -5px 7px 0px 16px #111;
+}
+
+.single-phone {
+    width: 270px;
+    height: 586px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 40px 85px 13px rgba(15, 15, 15, .5), 0px 0px 0px 15px #111;
+    box-shadow: 0px 0px 0px 10px #1f1f1f, 0px 10px 50px 10px rgba(15, 15, 15, .5), 0px 0px 0px 15px #111;
+}
+
+.iphone-x:before,
+.iphone-x:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.iphone-x:before {
+    top: 0px;
+    width: 56%;
+    height: 32px;
+    top: -2px;
+    background-color: #1f1f1f;
+    border-radius: 0px 0px 40px 40px;
+    border: solid 1px rgba(15, 15, 15, .6);
+    border-top: none;
+    z-index: 2;
+}
+
+.iphone-x i,
+.iphone-x b {
+    position: absolute;
+    display: block;
+    color: transparent;
+    z-index: 2;
+}
+
+.iphone-x i {
+    top: 0px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 6px);
+    transform: translate(-50%, 6px);
+    height: 8px;
+    width: 15%;
+    background-color: #101010;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0px -3px 3px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0px -3px 3px 0px rgba(255, 255, 255, 0.2);
+}
+
+.iphone-x b {
+    left: 10%;
+    top: 0px;
+    -webkit-transform: translate(180px, 4px);
+    transform: translate(180px, 4px);
+    width: 12px;
+    height: 12px;
+    background-color: #101010;
+    border-radius: 12px;
+    -webkit-box-shadow: inset 0px -3px 2px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0px -3px 2px 0px rgba(255, 255, 255, 0.2);
+}
+
+.iphone-x b:after {
+    content: '';
+    position: absolute;
+    background-color: #222;
+    width: 6px;
+    height: 6px;
+    top: 2px;
+    left: 2px;
+    top: 3px;
+    left: 3px;
+    display: block;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.single-phone b {
+    left: -10px;
+}
+
+.iphone-x img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.single-phone img {
+    border-radius: 30px;
+}
+
+.back-phone img {
+    opacity: .8;
+}
+
+/* -------------------------------------------
+
+    Preloader
+
+--------------------------------------------- */
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.preloader .waves {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -50px;
+    color: rgba(247, 250, 251, 1);
+    font-size: 40px;
+    text-align: center;
+    line-height: 35px;
+    animation: visible 2s;
+}
+
+.waves {
+    position: relative;
+    height: 60px;
+    margin: auto;
+}
+
+.waves .circle {
+    position: relative;
+    top: -120px;
+    margin: auto;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    font-size: 29px;
+    color: rgba(247, 250, 251, 1);
+    -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.waves .circle img {
+    width: 30px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.waves .circle:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.waves .circle-1 {
+    position: relative;
+    margin: auto;
+    background-color: rgba(247, 250, 251, 1);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: wave 2s linear 0s infinite normal;
+    animation: wave 2s linear 0s infinite normal;
+}
+
+.waves .circle-2 {
+    position: relative;
+    top: -60px;
+    margin: auto;
+    background-color: rgba(247, 250, 251, 1);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: wave 3s linear 0s infinite normal;
+    animation: wave 3s linear 0s infinite normal;
+}
+
+/* -------------------------------------------
+
+    Video section
+
+--------------------------------------------- */
+
+.video .video-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 150px;
+    position: inherit;
+}
+
+.video .video-text div {
+    margin: auto 0;
+}
+
+.video .video-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 150px;
+}
+
+.video .video-button .waves {
+    margin: auto;
+}
+
+.video .waves .circle {
+    position: relative;
+    top: -120px;
+    margin: auto;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    font-size: 29px;
+    color: rgba(247, 250, 251, 1);
+    -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+/* -------------------------------------------
