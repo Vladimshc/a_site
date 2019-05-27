@@ -230,6 +230,9 @@
         width: 450px;
         text-align: center;
     }
+    .slide-1-video {
+        margin-top: 20px !important;
+    }
 
     .waves {
         margin: 50px auto !important;
