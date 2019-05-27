@@ -3483,3 +3483,23 @@
     -webkit-animation-name: slideOutUp;
     animation-name: slideOutUp;
 }
+
+@-webkit-keyframes wave {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    5% {
+        opacity: .2;
+    }
+    70% {
+        opacity: .3;
+
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+    }
+}
