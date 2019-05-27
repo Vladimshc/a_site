@@ -1971,3 +1971,18 @@ footer {
     width: 77px;
     height: 75px;
 }
+
+
+/*slide 8*/
+.wrap-img{
+    margin-top: 150px;
+    width: auto;
+    height: 65vh;
+}
+
+.ilustration-app {
+    background-image: url("../images/slide_8_App.png");
+    background-size: cover;
+    height: 100%;
+
+}
