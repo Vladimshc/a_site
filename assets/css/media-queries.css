@@ -219,11 +219,10 @@
 @media (max-width: 767px) {
     h1,
     .h1 {
-        font-size: 42px;
+        font-size: 38px;
     }
-
-    h3{
-        font-size: 24px;
+    .header-1 h3 {
+        font-size: 22px;
     }
 
     .container {
@@ -231,7 +230,7 @@
         text-align: center;
     }
     .slide-1-video {
-        margin-top: 20px !important;
+        margin-top: 0px !important;
     }
 
     .waves {
@@ -401,7 +400,7 @@
     }
     h1,
     .h1 {
-        font-size: 45px;
+        font-size: 38px;
     }
     .stats .background-img {
         height: 100%;
