@@ -44,7 +44,7 @@
     }
     h1,
     .h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
     .header-1 h3 {
         font-size: 30px;
@@ -88,8 +88,14 @@
 
 @media (max-width: 992px) {
     .container {
-        width: 490px;
+        width: auto;
+        text-align: center;
     }
+
+    .content-center {
+        margin: 0 auto;
+    }
+
     .header-1 .header-phone {
         display: none;
     }
@@ -211,6 +217,28 @@
 --------------------------------------------- */
 
 @media (max-width: 767px) {
+    h1,
+    .h1 {
+        font-size: 42px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .container {
+        width: 450px;
+        text-align: center;
+    }
+
+    .waves {
+        margin: 50px auto !important;
+        width: fit-content !important;
+    }
+
+    .content-center {
+        margin: 0 auto;
+    }
 
     .dwnld-btn {
         margin: 7.5px;
@@ -261,6 +289,10 @@
 --------------------------------------------- */
 
 @media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+
     .ilustration {
         -webkit-transform: scale(8.5);
         transform: scale(8.5);
@@ -315,6 +347,10 @@
 --------------------------------------------- */
 
 @media (max-width: 400px) {
+    .container {
+        width: 360px;
+    }
+
     .ilustration {
         -webkit-transform: scale(.6);
         transform: scale(.6);
