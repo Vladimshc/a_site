@@ -1743,5 +1743,81 @@ footer {
     -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
     text-shadow: 0 0 35px rgba(0, 0, 0, .1);
 }
+/* -------------------------------------------
 
 /* -------------------------------------------
+
+     About us section
+
+--------------------------------------------- */
+
+.about {
+    margin: 0 auto;
+}
+
+.about .about-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.about .about-text div {
+    margin: auto 0;
+}
+
+.about .ilustration {
+    padding: 110px 0;
+    height: 550px;
+}
+
+.about .front-phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: -700px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+}
+
+.about .back-phone {
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 0px;
+}
+
+.about .front-phone .iphone-x {
+    left: 80px;
+    -webkit-transform: rotateY(25deg);
+    transform: rotateY(25deg);
+}
+
+.about .back-phone .iphone-x {
+    right: 20px;
+    -webkit-transform: rotateY(25deg);
+    transform: rotateY(25deg);
+}
+
+
+.about .front-phone .iphone {
+    left: 80px;
+    -webkit-transform: rotateY(25deg);
+    transform: rotateY(25deg);
+}
+
+.about .back-phone .iphone {
+    right: 20px;
+    -webkit-transform: rotateY(25deg);
+    transform: rotateY(25deg);
+}
+
+.about p {
+    font-size: 24px;
+    line-height: 1.4;
+}
