@@ -1986,3 +1986,70 @@ footer {
     height: 100%;
 
 }
+
+/* -------------------------------------------
+
+    Stats
+
+--------------------------------------------- */
+
+/*display center*/
+.stats {
+    color: #ffffff;
+    position: relative;
+    height: 100vh
+}
+
+.stats .masc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stats .masc .head {
+    margin: 50px 0 100px 0;
+}
+
+.stats .stat {
+    margin: auto;
+    text-align: center;
+}
+
+.stats .result span,
+.stats .result b {
+    display: inline;
+    color: rgba(247, 250, 251, 1);
+    padding: 15px 0;
+    font-weight: 100;
+    overflow: hidden;
+    margin-bottom: 0;
+    font-size: 48px;
+    -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.stats .stat .fa {
+     font-size: 110px;
+     color: rgba(247, 250, 251, 1);
+     -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+     text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+ }
+
+.stats .stat .far {
+    font-size: 110px;
+    color: rgba(247, 250, 251, 1);
+    -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.stats .stat .fas {
+    font-size: 110px;
+    color: rgba(247, 250, 251, 1);
+    -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    text-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.stat h4 {
+    text-transform: uppercase;
+}
