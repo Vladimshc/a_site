@@ -1838,13 +1838,22 @@ footer {
 --------------------------------------------- */
 
 .blog {
+    position: relative;
+    height: 100vh;
     margin: 0 auto;
     color: #384850;
 }
 
+.blog .padding-masc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 .blog h1 {
     color: #384850;
-    z-index: 10000000000;
 }
 
 .blog h4 {
@@ -1972,6 +1981,109 @@ footer {
     height: 75px;
 }
 
+/* -------------------------------------------
+
+    Team section
+
+--------------------------------------------- */
+.team {
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    color: #384850;
+}
+.team .wrap-team {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team .padding-masc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team h1 {
+    color: #fff;
+}
+
+.team h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.team .col-xs-12 {
+    margin-bottom: 30px;
+}
+
+.team .team-item img {
+    width: 100%;
+}
+
+.team .team-item {
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    text-align: center;
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.team .post-team span .fab {
+     color: #6D10B6;
+     margin: 0 5px;
+     font-size: 32px;
+}
+
+.team .post-team {
+    min-height: 60px;
+    line-height: 60px;
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(247, 250, 251, 1);
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.team .social-link:hover span .fab {
+    font-size: 36px;
+    color: #384850;
+}
+
+.team .team-post-link:hover .post-team-description {
+     display: none;
+}
+
+.post-team-social {
+    display: none;
+}
+
+.team .team-post-link:hover .post-team-social {
+    display: block;
+}
+
+.team .post-team p {
+    color: #6D10B6;
+}
+
+.team .team-post-link:hover img {
+    opacity: 0.3;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.team .team-post-link:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 /*slide 8*/
 .wrap-img{
@@ -2002,7 +2114,7 @@ footer {
 
 .stats .masc {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
