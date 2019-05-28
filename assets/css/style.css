@@ -2165,3 +2165,40 @@ footer {
 .stat h4 {
     text-transform: uppercase;
 }
+
+/*contact form */
+.contact-us {
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    color: #384850;
+}
+.contact-us .wrap-contact-us {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-us .padding-masc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-us h1 {
+    color: #384850;
+}
+
+.submit-btn {
+    padding: 0 !important;
+}
+
+.submit-btn-icon {
+    display: block;
+    background-image: url("../images/submit.png");
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
