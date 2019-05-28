@@ -2264,3 +2264,38 @@ footer {
     font-size: 36px;
     color: #6D10B6;
 }
+
+
+/*slide 3 */
+.app-screenshots {
+    color: #ffffff;
+    position: relative;
+    height: 100vh
+}
+
+.wrap-app {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.swiper-container-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-top: 50px;
+}
+.swiper-container-3 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 510px;
+    border-radius: 26px;
+}
+
+.swiper-container-3 .swiper-pagination-3 {
+    margin: 20px auto
+}

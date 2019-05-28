@@ -19,6 +19,7 @@
     Sort();
     UniteGallery();
     ValidForm();
+    slider_slide_3();
 
 })(window);
 
@@ -308,6 +309,28 @@ $(window).on('load', function () {
     $preloader.delay(500).fadeOut('slow');
 });
 
-
+// swiper
+function slider_slide_3() {
+    if ($.exists('.swiper-container-3')) {
+        var swiper = new Swiper('.swiper-container-3', {
+            initialSlide: 2,
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: -50,
+                depth: 200,
+                modifier: 3,
+                slideShadows : true,
+            },
+            pagination: {
+                el: '.swiper-pagination-3',
+                dynamicBullets: true,
+            },
+        });
+    }
+}
 
 
