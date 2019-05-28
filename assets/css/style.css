@@ -1142,19 +1142,19 @@ p {
     margin: 0;
     transition: border-color .3s ease;
 }
-.form-control {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 0 1em;
-    height: 34px;
-    font-size: calc(16px + 2 * (100vw - 992px) / 1508);
-    color: #151515;
-    font-weight: 300;
-    margin-bottom: 2em;
-    background-image: none;
-    border: 1px solid #555;
-}
+/*.form-control1 {*/
+/*    position: relative;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    !*padding: 0 1em;*!*/
+/*    height: 34px;*/
+/*    !*font-size: calc(16px + 2 * (100vw - 992px) / 1508);*!*/
+/*    color: #151515;*/
+/*    font-weight: 300;*/
+/*    !*margin-bottom: 2em;*!*/
+/*    background-image: none;*/
+/*    border: 1px solid #555;*/
+/*}*/
 #message {
     min-height: 150px;
     max-height: 150px;
@@ -2201,4 +2201,66 @@ footer {
     background-size: cover;
     height: 30px;
     width: 30px;
+}
+
+
+/*news form */
+.news {
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    color: #384850;
+}
+.news .wrap-news {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.news .wrap-social {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.news .padding-masc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.news h1 {
+    color: #fff;
+}
+
+.news input {
+    min-width: 30em;
+}
+
+.btn-subscribe {
+    color: #fff;
+    margin-bottom: 10px !important;
+    background: linear-gradient(0.25turn, #F768A6, #F58768) !important;
+}
+
+.social-circle{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 83px;
+    margin: 0 auto;
+}
+
+.social-circle:hover{
+    -webkit-animation: wave 2s linear 0s infinite normal;
+    animation: wave 2s linear 0s infinite normal;
+}
+
+.news .wrap-social .fab {
+    font-size: 36px;
+    color: #6D10B6;
 }
