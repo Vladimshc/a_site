@@ -55,6 +55,12 @@ Author: madsparrow.us
     font-style: normal;
 }
 
+.fab,
+.far,
+.fas {
+    font-style: normal;
+}
+
 ::selection {
     background: #fff;
     color: #384850;
@@ -2311,6 +2317,7 @@ footer {
 .stats .stat {
     margin: auto;
     text-align: center;
+    line-height: 1;
 }
 
 .stats .result span,
@@ -2322,13 +2329,6 @@ footer {
     overflow: hidden;
     margin-bottom: 0;
     font-size: 48px;
-    -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
-    text-shadow: 0 0 35px rgba(0, 0, 0, .1);
-}
-
-.stats .stat .fa {
-    font-size: 110px;
-    color: rgba(247, 250, 251, 1);
     -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .1);
     text-shadow: 0 0 35px rgba(0, 0, 0, .1);
 }
@@ -2349,6 +2349,10 @@ footer {
 
 .stat h4 {
     text-transform: uppercase;
+}
+
+.stat .result {
+    line-height: 2;
 }
 
 /*contact form */
@@ -2412,6 +2416,10 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+.news .wrap-social a {
+    text-decoration: none;
+}
+
 .news .padding-masc {
     position: absolute;
     top: 50%;
@@ -2438,7 +2446,7 @@ footer {
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    line-height: 83px;
+    line-height: 70px;
     margin: 0 auto;
 }
 
