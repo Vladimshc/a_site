@@ -2257,6 +2257,11 @@ footer {
     display: none;
 }
 
+.post-team-social a,
+.post-team-social a:hover {
+    text-decoration: none;
+}
+
 .team .team-post-link:hover .post-team-social {
     display: block;
 }
@@ -2269,6 +2274,7 @@ footer {
     opacity: 0.3;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    transition-duration: 1s;
 }
 
 .team .team-post-link:hover img {
