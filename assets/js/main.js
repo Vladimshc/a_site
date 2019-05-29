@@ -101,9 +101,10 @@ function Menu() {
 /*------------------
     Home Slider
 -------------------*/
+var homeSlider;
     function ms_home_slider() {
         if ($.exists('.swiper-container')) {
-            var swiper = new Swiper('.swiper-container', {
+            homeSlider = new Swiper('.swiper-container', {
             loop: false,
             speed: 1000,
             grabCursor: false,
@@ -122,9 +123,9 @@ function Menu() {
             }
             });
             $('.expanded-timeline__counter span:first-child').text('1');
-            $('.expanded-timeline__counter span:last-child').text(swiper.slides.length);
-            swiper.on('slideChange', function () {
-                $('.expanded-timeline__counter span:first-child').text(swiper.activeIndex + 1);
+            $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length);
+            homeSlider.on('slideChange', function () {
+                $('.expanded-timeline__counter span:first-child').text(homeSlider.activeIndex + 1);
             });
 
             }
@@ -356,4 +357,48 @@ function setLine () {
         line.css("left", -width + arc.width());
         arc.css("left", -width);
     }
+}
+
+// count digits
+var $counters = $('.js-counter');
+$window = $(window);
+
+$window.bind('mousewheel DOMMouseScroll', function(event){
+    if (homeSlider.activeIndex === 6 ) {
+        $counters.each(function () {
+            var $counter = $(this);
+            if (isInViewport($counter[0])) {
+                if (!$counter.hasClass('is-counting')) {
+                    drawCounter($counter);
+                }
+            }
+        });
+    }
+});
+
+function isInViewport(elem) {
+    var docViewTop = $window.scrollTop();
+    var docViewBottom = docViewTop + $window.height();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+function drawCounter(counter) {
+    var $counter = counter;
+    var $counter_value = $('.js-counter-value', $counter);
+    var end = $counter.data('counter-end');
+    var interval = $counter.data('counter-interval');
+    var count = 1;
+
+    var update = setInterval(function () {
+        $counter_value.text(count);
+        $counter.addClass('is-counting');
+        if (count === end) {
+            clearInterval(update);
+            $counter.removeClass('is-counting');
+        }
+        count++;
+    }, interval);
 }
