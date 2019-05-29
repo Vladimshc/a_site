@@ -212,6 +212,11 @@
         padding-bottom: 0;
     }
 
+    .arc-line,
+    .horizontal-line {
+        display: none;
+    }
+
 }
 
 /* -------------------------------------------

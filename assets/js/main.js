@@ -21,6 +21,7 @@
     ValidForm();
     slider_slide_3();
     slider_slide_5();
+    setLine();
 
 })(window);
 
@@ -346,3 +347,13 @@ function slider_slide_5() {
     }
 }
 
+function setLine () {
+    if ($.exists('.horizontal-line', '.telephone', '.arc-line')) {
+        var line = $('.horizontal-line');
+        var arc = $('.arc-line');
+        var width = ($( window ).width() * 0.5 - $('.telephone').width()) / 2;
+        line.width( width - arc.width() );
+        line.css("left", -width + arc.width());
+        arc.css("left", -width);
+    }
+}
