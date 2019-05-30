@@ -364,7 +364,7 @@ var $counters = $('.js-counter');
 $window = $(window);
 
 $window.bind('mousewheel DOMMouseScroll', function(event){
-    if (homeSlider.activeIndex === 6 ) {
+    if (homeSlider.activeIndex === 7 ) {
         $counters.each(function () {
             var $counter = $(this);
             if (isInViewport($counter[0])) {
