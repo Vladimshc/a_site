@@ -6,8 +6,8 @@ $from = $_POST['email']; // this is the sender's Email address
 $first_name = $_POST['name'];
 $subject = "Форма отправки сообщений с сайта";
 $subject2 = "Copy of your form submission";
-$message = $name . " оставил сообщение:" . "\n\n" . $email "\n\n" . $_POST['message'];
-$message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+$message = $first_name . " оставил сообщение:" . "\r\n" . $from "\r\n" . $_POST['message'];
+$message2 = "Here is a copy of your message " . $first_name . "\r\n" . $_POST['message'];
 
 $headers = "From:" . $from;
 $headers2 = "From:" . $to;
