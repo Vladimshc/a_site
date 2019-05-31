@@ -21,6 +21,8 @@
     ValidForm();
     slider_slide_3();
     slider_slide_5();
+    slider_slide_6_tel();
+    slider_slide_9_tel();
     setLine();
 
 })(window);
@@ -348,6 +350,30 @@ function slider_slide_5() {
     }
 }
 
+function slider_slide_6_tel() {
+    if ($.exists('.swiper-container-6-tel')) {
+        var swiper = new Swiper('.swiper-container-6-tel', {
+            initialSlide: 0,
+            pagination: {
+                el: '.swiper-pagination-6-tel',
+                clickable: true,
+            },
+        });
+    }
+}
+
+function slider_slide_9_tel() {
+    if ($.exists('.swiper-container-9-tel')) {
+        var swiper = new Swiper('.swiper-container-9-tel', {
+            initialSlide: 0,
+            pagination: {
+                el: '.swiper-pagination-9-tel',
+                clickable: true,
+            },
+        });
+    }
+}
+
 function setLine () {
     if ($.exists('.horizontal-line', '.telephone', '.arc-line')) {
         var line = $('.horizontal-line');
@@ -375,6 +401,20 @@ $window.bind('mousewheel DOMMouseScroll', function(event){
         });
     }
 });
+
+$('.swiper-button-white').click(function() {
+    if (homeSlider.activeIndex === 7 ) {
+        $counters.each(function () {
+            var $counter = $(this);
+            if (isInViewport($counter[0])) {
+                if (!$counter.hasClass('is-counting')) {
+                    drawCounter($counter);
+                }
+            }
+        });
+    }
+});
+
 
 function isInViewport(elem) {
     var docViewTop = $window.scrollTop();

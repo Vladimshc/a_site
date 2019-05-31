@@ -2034,6 +2034,13 @@ footer {
     color: #384850;
 }
 
+.blog .wrap-blog {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .blog .padding-masc {
     position: absolute;
     top: 50%;
@@ -2711,4 +2718,6 @@ footer {
     color: #fff;
 }
 
-
+.team-tel-container {
+    display: none;
+}
