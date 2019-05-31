@@ -1550,6 +1550,12 @@ footer {
     width: 100%;
 }
 
+.white-h3 {
+    height: 110px;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
 .header-1 .social-icons {
     position: absolute;
     display: -webkit-box;
