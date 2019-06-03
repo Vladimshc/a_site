@@ -1855,6 +1855,7 @@ footer {
 .waves .circle {
     position: relative;
     top: -120px;
+    left: 3px;
     margin: auto;
     border-radius: 50%;
     width: 60px;
@@ -2728,5 +2729,3 @@ footer {
     display: none;
 }
 
-
-.swiper-wrapper

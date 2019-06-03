@@ -325,10 +325,8 @@ new WOW().init();
 jQuery('.header-slider-tel').owlCarousel({
     animateOut: 'fadeOut',
     mouseDrag: false,
-    // dots: true,
     loop: true,
     navText: [''],
-    // dots: false,
     items: 1,
     autoplay: true,
     smartSpeed: 450
