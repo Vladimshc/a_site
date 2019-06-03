@@ -4,7 +4,7 @@
 
     $.exists = function(selector) {
         return ($(selector).length > 0);
-    }
+    };
 
     window.onpageshow = function(event) {
       if (event.persisted) {
