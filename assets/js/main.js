@@ -106,31 +106,57 @@ function Menu() {
 var homeSlider;
     function ms_home_slider() {
         if ($.exists('.swiper-container')) {
-            homeSlider = new Swiper('.swiper-container', {
-            loop: true,
-            speed: 1000,
-            grabCursor: false,
-            mousewheel: true,
-            keyboard: true,
-            simulateTouch: false,
-            parallax: true,
-            effect: 'slide',
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'progressbar',
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+                // Take the user to a different screen here.
+                homeSlider = new Swiper('.swiper-container', {
+                    loop: true,
+                    speed: 0,
+                    grabCursor: false,
+                    mousewheel: true,
+                    keyboard: true,
+                    simulateTouch: false,
+                    parallax: true,
+                    effect: 'slide',
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'progressbar',
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    }
+                });
+                $('.expanded-timeline__counter span:first-child').text('1');
+                $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length - 1);
+                homeSlider.on('slideChange', function () {
+                    $('.expanded-timeline__counter span:first-child').text(homeSlider.activeIndex);
+                });
+            } else {
+                homeSlider = new Swiper('.swiper-container', {
+                    loop: true,
+                    speed: 1000,
+                    grabCursor: false,
+                    mousewheel: true,
+                    keyboard: true,
+                    simulateTouch: false,
+                    parallax: true,
+                    effect: 'slide',
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'progressbar',
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    }
+                });
+                $('.expanded-timeline__counter span:first-child').text('1');
+                $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length - 1);
+                homeSlider.on('slideChange', function () {
+                    $('.expanded-timeline__counter span:first-child').text(homeSlider.activeIndex);
+                });
             }
-            });
-            $('.expanded-timeline__counter span:first-child').text('1');
-            $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length - 1);
-            homeSlider.on('slideChange', function () {
-                $('.expanded-timeline__counter span:first-child').text(homeSlider.activeIndex);
-            });
-
-            }
+        }
     }
 
 /*------------------
