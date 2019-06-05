@@ -1232,10 +1232,6 @@ p {
     margin: 1em 0;
 }
 
-#about .row {
-    margin-bottom: 9em;
-}
-
 /**
  * 9. Contact
  */
@@ -1554,7 +1550,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     height: 100vh;
-    padding-top: 70px;
+    padding-top: 0;
 }
 
 .header-1 .header-phone .ilustration {
@@ -1566,7 +1562,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     height: 100vh;
-    padding: 150px 0 200px;
+    padding: 0;
 }
 
 .header-1 .main-title div {
@@ -1908,15 +1904,18 @@ footer {
 --------------------------------------------- */
 
 .about {
-    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+}
+
+.about .padding-masc {
+    margin: auto auto;
 }
 
 .about .about-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 550px;
-    margin: 0 auto;
 }
 
 .about .about-text div {
@@ -1974,8 +1973,8 @@ footer {
 }
 
 .about p {
-    font-size: 24px;
-    line-height: 1.4;
+    font-size: 3vh;
+    line-height: 1.6;
 }
 
 /* -------------------------------------------
@@ -2457,9 +2456,9 @@ footer {
 .swiper-container-3 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 250px;
-    height: 510px;
-    border-radius: 26px;
+    width: 25vh;
+    height: 51vh;
+    border-radius: 2.6vh;
 }
 
 .swiper-container-3 .swiper-pagination-3 .swiper-pagination-bullet {
@@ -2582,16 +2581,19 @@ footer {
     width: 80%;
     margin: 0 auto;
 }
+.wrap-features .telephone-container {
+    display: flex;
+}
 
 .wrap-features .telephone {
     background-image: url('../images/slide-4.png');
     background-position: center;
     background-size: cover;
-    width: 330px;
-    height: 660px;
-    margin: 30px auto;
-    border-radius: 26px;
+    width: 33vh;
+    height: 66vh;
+    border-radius: 2.6vh;
     box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    margin: auto auto
 }
 
 .wrap-features h1 {
@@ -2600,7 +2602,7 @@ footer {
 }
 
 .wrap-features .item {
-    margin-top: 5em;
+    margin-top: 4vh;
 }
 
 .wrap-features .text-left:first-child {
@@ -2639,7 +2641,7 @@ footer {
 }
 
 .wrap-features .item .margin-right {
-    margin-right: 15px;
+    margin-right: 1vh;
 }
 
 .wrap-features .item .margin-left {
@@ -2647,18 +2649,18 @@ footer {
 }
 
 .wrap-features .item p {
-    font-size: 15px;
+    font-size: 1.1em;
     font-weight: 500;
-    line-height: 2;
+    line-height: 1.5em;
 }
 
 .wrap-features .item .icon {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 60px;
+    width: 5vh;
+    height: 5vh;
+    line-height: 6vh;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 1vh;
     box-shadow: 0 0 8px rgba(0,0,0,0.15);
 }
 
@@ -2667,7 +2669,7 @@ footer {
 }
 
 .wrap-features .item .icon .fas {
-    font-size: 28px;
+    font-size: 2.8vh;
     color: #BA87E5;
 }
 
