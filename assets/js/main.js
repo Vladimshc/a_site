@@ -398,17 +398,6 @@ function slider_slide_9_tel() {
     }
 }
 
-function setLine () {
-    if ($.exists('.horizontal-line', '.telephone', '.arc-line')) {
-        var line = $('.horizontal-line');
-        var arc = $('.arc-line');
-        var width = ($( window ).width() * 0.5 - $('.telephone').width()) / 2;
-        line.width( width - arc.width() );
-        line.css("left", -width + arc.width());
-        arc.css("left", -width);
-    }
-}
-
 // count digits
 var $counters = $('.js-counter');
 $window = $(window);
@@ -466,3 +455,33 @@ function drawCounter(counter) {
         count++;
     }, interval);
 }
+
+function setLine () {
+    if ($.exists('.horizontal-line', '.telephone', '.arc-line')) {
+        var iconHeight = $('.icon').height();
+        var line = $('.horizontal-line');
+        var arc = $('.arc-line');
+        var width = ($( window ).width() * 0.5 - $('.telephone').width()) / 2;
+        var arcWidth = arc.width();
+        line.width( width - arcWidth );
+        line.css("left", -width + arcWidth);
+        line.css("top", iconHeight / 2);
+        arc.css("left", -width);
+        arc.css("top", iconHeight / 4);
+
+        var lineRight = $('.horizontal-line-right');
+        var arcRight = $('.arc-line-right');
+        lineRight.width( width - arcWidth );
+        lineRight.css("right", - width + arcWidth);
+        lineRight.css("top", iconHeight / 2);
+        arcRight.css("right", -width);
+        arcRight.css("top", iconHeight / 4);
+    }
+}
+
+$('.wrap-head').click(function(event) {
+    $(this).parents("div").find("div.active").removeClass("active");
+    $(this).parent().addClass("active");
+    var urlImg = 'url(./assets/images/features_' + this.id + '.png)';
+    $(".telephone").css('background-image', urlImg);
+});

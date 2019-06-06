@@ -2603,7 +2603,8 @@ footer {
 }
 
 .wrap-features .telephone {
-    background-image: url('../images/slide-4.png');
+    transition-duration: 1s;
+    background-image: url('../images/features_lightbulb.png');
     background-position: center;
     background-size: cover;
     width: 33vh;
@@ -2635,8 +2636,8 @@ footer {
 }
 
 .wrap-features .item .wrap-head .arc-line {
+    display: none;
     position: absolute;
-    top: 16px;
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -2644,11 +2645,28 @@ footer {
 }
 
 .wrap-features .item .wrap-head .horizontal-line {
+    display: none;
     position: absolute;
-    top: 25px;
     height: 3px;
     background: linear-gradient(0.25turn, #F768A6, #F58768);
+}
 
+.wrap-features .item .wrap-head .arc-line-right {
+    display: none;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: linear-gradient(0.25turn, #F768A6, #F58768);
+    z-index: 1;
+}
+
+.wrap-features .item .wrap-head .horizontal-line-right {
+    display: none;
+    position: absolute;
+    height: 3px;
+    background: linear-gradient(0.25turn, #F768A6, #F58768);
+    z-index: 1;
 }
 
 .wrap-features .item h4 {
@@ -2681,8 +2699,25 @@ footer {
     box-shadow: 0 0 8px rgba(0,0,0,0.15);
 }
 
-.wrap-features .item .icon-last {
-    background: linear-gradient(0.25turn, #F768A6, #F58768);
+.wrap-features .active .arc-line-right{
+    display: block !important;
+}
+.wrap-features .active .horizontal-line-right{
+    display: block !important;
+}
+.wrap-features .active .arc-line{
+    display: block !important;
+}
+.wrap-features .active .horizontal-line{
+    display: block !important;
+}
+
+.wrap-features .active .icon{
+     background: linear-gradient(0.25turn, #F768A6, #F58768);
+}
+.wrap-features .active .icon .fas{
+    transition-duration: 1s;
+    color: #fff !important;
 }
 
 .wrap-features .item .icon .fas {
@@ -2690,7 +2725,7 @@ footer {
     color: #BA87E5;
 }
 
-.wrap-features .item .icon-last .fas {
+.wrap-features .item .icon-active .fas {
     color: #fff;
 }
 
