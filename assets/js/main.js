@@ -24,6 +24,7 @@
     slider_slide_6_tel();
     slider_slide_9_tel();
     setLine();
+    setActiv();
 
 })(window);
 
@@ -485,3 +486,9 @@ $('.wrap-head').click(function(event) {
     var urlImg = 'url(./assets/images/features_' + this.id + '.png)';
     $(".telephone").css('background-image', urlImg);
 });
+
+function setActiv() {
+    if (window.innerWidth > 500 ) {
+        $('#lightbulb').addClass("active")
+    }
+}
