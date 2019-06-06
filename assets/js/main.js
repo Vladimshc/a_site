@@ -14,11 +14,11 @@
 
     // All Funtions
     PageTransition();
-    Menu();
+    // Menu();
     ms_home_slider();
-    Sort();
-    UniteGallery();
-    ValidForm();
+    // Sort();
+    // UniteGallery();
+    // ValidForm();
     slider_slide_3();
     slider_slide_5();
     slider_slide_6_tel();
@@ -151,9 +151,9 @@ var homeSlider;
                     }
                 });
                 $('.expanded-timeline__counter span:first-child').text('1');
-                $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length - 1);
+                $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length - 2);
                 homeSlider.on('slideChange', function () {
-                    $('.expanded-timeline__counter span:first-child').text(homeSlider.activeIndex);
+                    $('.expanded-timeline__counter span:first-child').text(homeSlider.realIndex + 1);
                 });
             }
         }

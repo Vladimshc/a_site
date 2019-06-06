@@ -1557,6 +1557,17 @@ footer {
     margin: auto;
 }
 
+.header-phone .ilustration .phone-img{
+    background-image: url("../images/indulgence.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 58vh;
+    width: 30vh;
+    border-radius: 3vh;
+    margin: 0 auto;
+}
+
 .header-1 .main-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1895,7 +1906,7 @@ footer {
     text-shadow: 0 0 35px rgba(0, 0, 0, .1);
 }
 
-/* -------------------------------------------
+/* ------------------------------------------- */
 
 /* -------------------------------------------
 
@@ -2620,7 +2631,7 @@ footer {
 }
 
 .wrap-features .item {
-    margin-top: 4vh;
+    margin-top: 2vh;
 }
 
 .wrap-features .text-left:first-child {
@@ -2632,7 +2643,7 @@ footer {
     float: none;
     height: 50px;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 .wrap-features .item .wrap-head .arc-line {
