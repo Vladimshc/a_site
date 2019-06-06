@@ -348,9 +348,9 @@ function slider_slide_3() {
             centeredSlides: true,
             slidesPerView: 'auto',
             coverflowEffect: {
-                rotate: 50,
+                rotate: 55,
                 stretch: -50,
-                depth: 200,
+                depth: 70,
                 modifier: 3,
                 slideShadows : true,
             },

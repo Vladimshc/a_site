@@ -25,7 +25,7 @@
 
     h1,
     .h1 {
-        font-size: 70px;
+        font-size: 47px;
     }
 
     .container {
@@ -551,9 +551,8 @@
     }
 
     .swiper-container-3 .swiper-slide {
-        width: 30vh;
+        width: 28vh;
         height: 62vh;
-        border-radius: 20px;
     }
 
     .swiper-container-3 .swiper-pagination-3 {

@@ -1923,9 +1923,18 @@ footer {
 }
 
 .about .ilustration {
-    padding: 110px 0;
     height: 550px;
 }
+
+.about .ilustration .about-img{
+    background-image: url("../images/AboutUs.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    margin: 0 auto;
+}
+
 
 .about .front-phone {
     display: -webkit-box;
@@ -1999,7 +2008,7 @@ footer {
 
 .blog .padding-masc {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -2071,9 +2080,9 @@ footer {
 }
 
 .blog .post-text {
-    min-height: 230px;
+    min-height: 215px;
     border-radius: 0 0 4px 4px;
-    padding: 15px;
+    padding: 15px 20px 0px 20px;
     text-align: left;
     background-color: rgba(247, 250, 251, 1);
     -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
@@ -2247,16 +2256,24 @@ footer {
 
 /*slide 8*/
 .wrap-img {
-    margin-top: 150px;
+    margin-top: 18vh;
     width: auto;
-    height: 65vh;
+    height: 62vh;
 }
 
 .ilustration-app {
-    background-image: url("../images/slide_8_App.png");
-    background-size: cover;
+    /*background-image: url("../images/slide_8_App.png");*/
+    /*background-size: cover;*/
     height: 100%;
+}
 
+.ilustration-app .about-img{
+    background-image: url("../images/slide_8_App.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    margin: 0 auto;
 }
 
 /* -------------------------------------------
@@ -2456,9 +2473,8 @@ footer {
 .swiper-container-3 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 25vh;
-    height: 51vh;
-    border-radius: 2.6vh;
+    width: 24vh;
+    height: 52vh;
 }
 
 .swiper-container-3 .swiper-pagination-3 .swiper-pagination-bullet {
@@ -2502,7 +2518,7 @@ footer {
 .swiper-container-5 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    height: 500px;
+    height: 47vh;
 
 }
 
@@ -2525,15 +2541,15 @@ footer {
     padding: 0 12px;
     color: #384850;
     background-color: #fff;
-    height: 500px;
+    height: 47vh;
     text-align: center;
     border-radius: 12px;
 }
 
 .swiper-container-5 .swiper-wrapper .swiper-slide .user img {
-    width: 120px;
-    margin: 30px auto;
-    margin-bottom: 20px;
+    width: 9vh;
+    margin: 3vh auto;
+    margin-bottom: 1vh;
 }
 
 .swiper-container-5 .swiper-wrapper .swiper-slide .user h4 {
@@ -2542,23 +2558,24 @@ footer {
 }
 
 .swiper-container-5 .swiper-wrapper .swiper-slide .user h4 {
-    font-weight: 300;
+    font-weight: 800;
     font-size: 15px;
 }
 
 .swiper-container-5 .swiper-wrapper .swiper-slide .user p {
-    height: 180px;
+    /*height: 180px;*/
     margin: 0 2em;
+    padding-bottom: 3vh;
     overflow: hidden;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 2;
+    font-size: 0.7em;
+    line-height: 1.6;
 }
 
 .swiper-container-5 .swiper-wrapper .swiper-slide .user .stars {
-    font-size: 20px;
+    font-size: 1em;
     color: #F768A6;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
