@@ -1923,8 +1923,18 @@ footer {
     z-index: 2;
 }
 
+.about h1 {
+    font-size: 6vh;
+}
+
 .about .padding-masc {
+    width: 80vw;
     margin: auto auto;
+}
+
+.about .container {
+    display: initial;
+    width: 100%;
 }
 
 .about .about-text {
@@ -2002,8 +2012,9 @@ footer {
 }
 
 .about p {
-    font-size: 3vh;
-    line-height: 1.6;
+    margin-top: 3.2vh;
+    font-size: 3.2vh;
+    line-height: 1.5;
 }
 
 /* -------------------------------------------
@@ -2635,8 +2646,8 @@ footer {
     background-image: url('../images/features_lightbulb.png');
     background-position: center;
     background-size: cover;
-    width: 39vh;
-    height: 75vh;
+    width: 53vh;
+    height: 91vh;
     margin: auto auto
 }
 
