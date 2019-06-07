@@ -2636,9 +2636,18 @@ footer {
 .wrap-features .wrap-container {
     width: 80%;
     margin: 0 auto;
+    margin-left: 12%;
 }
 .wrap-features .telephone-container {
     display: flex;
+}
+
+.wrap-features .margin-right {
+     margin-right: -3.5%;
+ }
+
+.wrap-features .margin-left {
+    margin-left: -3.5%;
 }
 
 .wrap-features .telephone {
@@ -2648,20 +2657,22 @@ footer {
     background-size: cover;
     width: 53vh;
     height: 91vh;
-    margin: auto auto
+    margin: 0 auto;
+    margin-top: -4vh;
 }
 
 .wrap-features h1 {
     font-size: 6vh;
     font-weight: bold;
+    margin-bottom: 14.5vh;
 }
 
 .wrap-features .item {
-    margin-top: 2vh;
+    margin-top: 5.5vh;
 }
 
 .wrap-features .text-left:first-child {
-    margin-top: calc(60px + 5em);
+    margin-top: 23vh;
 }
 
 .wrap-features .item .wrap-head {
@@ -2711,7 +2722,7 @@ footer {
 
 .wrap-features .item h4 {
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.7vh;
     font-weight: bold;
 }
 
@@ -2724,16 +2735,17 @@ footer {
 }
 
 .wrap-features .item p {
-    font-size: 1.1em;
+    margin-top: 1vh;
+    font-size: 1.6vh;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 2.5vh;
 }
 
 .wrap-features .item .icon {
     display: inline-block;
-    width: 4vh;
-    height: 4vh;
-    line-height: 4.3vh;
+    width: 5vh;
+    height: 5vh;
+    line-height: 5.5vh;
     text-align: center;
     border-radius: 1vh;
     box-shadow: 0 0 8px rgba(0,0,0,0.15);

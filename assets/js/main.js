@@ -467,7 +467,7 @@ function setLine () {
         line.width( width - arcWidth );
         line.css("left", -width + arcWidth);
         line.css("top", iconHeight / 2);
-        arc.css("left", -width);
+        arc.css("left", -width + 1);
         arc.css("top", iconHeight / 4);
 
         var lineRight = $('.horizontal-line-right');
@@ -475,7 +475,7 @@ function setLine () {
         lineRight.width( width - arcWidth );
         lineRight.css("right", - width + arcWidth);
         lineRight.css("top", iconHeight / 2);
-        arcRight.css("right", -width);
+        arcRight.css("right", -width + 1);
         arcRight.css("top", iconHeight / 4);
     }
 }

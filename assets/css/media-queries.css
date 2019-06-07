@@ -568,6 +568,14 @@
         top: 45%;
     }
 
+    .wrap-features .margin-right {
+        margin-right: 0;
+    }
+
+    .wrap-features .margin-left {
+        margin-left: 0;
+    }
+
     .wrap-features .item {
         margin-top: 0;
     }
