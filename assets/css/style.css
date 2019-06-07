@@ -1498,6 +1498,7 @@ footer {
 
 .white-h3 {
     height: 110px;
+    max-width: 500px;
     margin-top: 2vh;
     margin-bottom: 0;
 }
@@ -1948,7 +1949,7 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 55vh;
+    height: 82vh;
     width: 100%;
     margin: auto auto
 
