@@ -1934,7 +1934,10 @@ footer {
 }
 
 .about .ilustration {
-    height: 550px;
+    /*position: absolute;*/
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 .about .ilustration .about-img{
@@ -1942,8 +1945,10 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100%;
-    margin: 0 auto;
+    height: 55vh;
+    width: 100%;
+    margin: auto auto
+
 }
 
 
@@ -2626,7 +2631,7 @@ footer {
 }
 
 .wrap-features h1 {
-    font-size: 60px;
+    font-size: 6vh;
     font-weight: bold;
 }
 
@@ -2644,6 +2649,9 @@ footer {
     height: 50px;
     display: inline-block;
     margin-bottom: 0;
+}
+.wrap-features .item .wrap-head:hover {
+    cursor: pointer;
 }
 
 .wrap-features .item .wrap-head .arc-line {
@@ -2702,9 +2710,9 @@ footer {
 
 .wrap-features .item .icon {
     display: inline-block;
-    width: 5vh;
-    height: 5vh;
-    line-height: 6vh;
+    width: 4vh;
+    height: 4vh;
+    line-height: 4.3vh;
     text-align: center;
     border-radius: 1vh;
     box-shadow: 0 0 8px rgba(0,0,0,0.15);
@@ -2732,7 +2740,7 @@ footer {
 }
 
 .wrap-features .item .icon .fas {
-    font-size: 2.8vh;
+    font-size: 2.2vh;
     color: #BA87E5;
 }
 
