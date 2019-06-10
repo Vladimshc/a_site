@@ -14,7 +14,7 @@
 
     // All Funtions
     PageTransition();
-    // Menu();
+    Menu();
     ms_home_slider();
     // Sort();
     // UniteGallery();
