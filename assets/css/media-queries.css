@@ -548,17 +548,17 @@
 
     /*slide 3*/
     .wrap-app {
-        top: 10%
+        top: 14%
     }
 
     .swiper-container-3 {
-        top: 50%;
+        top: 52%;
         padding-top: 10px;
     }
 
     .swiper-container-3 .swiper-slide {
-        width: 28vh;
-        height: 62vh;
+        width: 26vh;
+        height: 57vh;
     }
 
     .swiper-container-3 .swiper-pagination-3 {
@@ -650,20 +650,20 @@
 
     /*slide 5 */
     .wrap-users {
-        top: 6%;
+        top: 13%;
     }
 
     .swiper-container-5 {
-        top: 50%;
+        top: 56%;
         padding-top: 0;
     }
 
     .swiper-container-5 .swiper-slide {
-        height: 70vh;
+        height: 65vh;
     }
 
     .swiper-container-5 .swiper-wrapper .swiper-slide .user {
-        height: 70vh;
+        height: 65vh;
     }
 
     .swiper-container-5 .swiper-wrapper .swiper-slide .user img {
@@ -691,7 +691,7 @@
 
     /*slide 6*/
     .team .wrap-team {
-        top: 9%;
+        top: 16%;
     }
 
     .team-tel-container {
@@ -738,7 +738,7 @@
 
     /*slide 9*/
     .blog .wrap-blog {
-        top: 9%;
+        top: 18%;
     }
 
     .swiper-container-9-tel .container {
@@ -767,7 +767,7 @@
 
     /*slide 10*/
     .contact-us .wrap-contact-us {
-        top: 9%;
+        top: 18%;
     }
     .contact-us .padding-masc .container {
         width: 244px;
