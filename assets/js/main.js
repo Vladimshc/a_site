@@ -76,6 +76,14 @@ function PageTransition() {
                 }
             });
         }
+
+        var numberSlide = $(this).data('number-slide');
+        homeSlider.slideTo(numberSlide, 1);
+        $('.hamburger').toggleClass('is-active');
+        $('.ms-nav').toggleClass('is-visible');
+        setNavColor("#ffffff", "#384850");
+        beginDigits();
+        return false;
     });
 }
 
@@ -495,31 +503,34 @@ function setNavColor(colorWhite, colorDark) {
         $('.hamburger-inner').cssAfter('background-color', color);
         $('.hamburger-inner').cssBefore('background-color', color);
     }
-    var hexDigits = new Array("0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f");
+
+    var hexDigits = new Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f");
+
     function rgb2hex(rgb) {
         rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
         return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
     }
+
     function hex(x) {
         return isNaN(x) ? "00" : hexDigits[(x - x % 16) / 16] + hexDigits[x % 16];
     }
 
     var activColor = rgb2hex($('.swiper-button-white').css('color'));
     if (homeSlider.activeIndex === 4) {
-        setActivColor (colorDark)
+        setActivColor(colorDark)
     } else if (activColor !== colorWhite) {
-        setActivColor (colorWhite)
+        setActivColor(colorWhite)
     }
 }
 
 $window.bind('mousewheel DOMMouseScroll', function () {
     beginDigits();
-    setNavColor( "#ffffff", "#384850");
+    setNavColor("#ffffff", "#384850");
 });
 
 $('.swiper-button-white').click(function () {
     beginDigits();
-    setNavColor( "#ffffff", "#384850");
+    setNavColor("#ffffff", "#384850");
 
 });
 

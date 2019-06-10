@@ -494,7 +494,7 @@ p {
 
 .nav-item {
     cursor: pointer;
-    padding: .75em;
+    padding: .75vh;
     opacity: 0;
     width: 240px;
     margin-left: 3em;
@@ -514,7 +514,7 @@ p {
 }
 
 .ms-navbar .ms-btn {
-    font-size: 1.75em;
+    font-size:1.6vh;
     letter-spacing: .02em;
     color: #fff;
     font-weight: 700 !important;
@@ -541,8 +541,9 @@ p {
     display: block;
     margin: 0.5em 0 0 0;
     margin-top: 0.25em;
-    padding: 0.5em;
+    padding: 0.5vh;
     color: #555;
+    font-size: 1.4vh;
     transition: color .3s ease;
     text-decoration: none;
 }
