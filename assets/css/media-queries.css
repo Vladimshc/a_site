@@ -594,11 +594,12 @@
 
     /*slide 3*/
     .wrap-app {
-        top: 14%
+        top: 18%;
+        width: 100%;
     }
 
     .swiper-container-3 {
-        top: 52%;
+        top: 60%;
         padding-top: 10px;
     }
 
@@ -608,7 +609,7 @@
     }
 
     .swiper-container-3 .swiper-pagination-3 {
-        margin: 15px auto;
+        margin: 30px auto;
     }
 
     /*slide 4*/
