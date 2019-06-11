@@ -416,7 +416,7 @@ var $counters = $('.js-counter');
 $window = $(window);
 
 function beginDigits() {
-    if (homeSlider.activeIndex === 7) {
+    if (homeSlider.activeIndex === 5) {
         $counters.each(function () {
             var $counter = $(this);
             if (isInViewport($counter[0])) {
