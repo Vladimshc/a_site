@@ -516,7 +516,7 @@ function setNavColor(colorWhite, colorDark) {
     }
 
     var activColor = rgb2hex($('.swiper-button-white').css('color'));
-    if (homeSlider.activeIndex === 4) {
+    if (homeSlider.activeIndex === 4 || homeSlider.activeIndex === 2) {
         setActivColor(colorDark)
     } else if (activColor !== colorWhite) {
         setActivColor(colorWhite)

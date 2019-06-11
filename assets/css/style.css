@@ -1930,6 +1930,8 @@ footer {
 
 .about h1 {
     font-size: 6vh;
+    margin-top: 3vh;
+    margin-bottom: 5.5vh;
 }
 
 .about .padding-masc {
@@ -1942,14 +1944,15 @@ footer {
     width: 100%;
 }
 
+.about .content {
+    margin-left: auto;
+}
+
 .about .about-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-}
-
-.about .about-text div {
-    margin: auto 0;
+    text-align: right;
 }
 
 .about .ilustration {
@@ -1957,6 +1960,7 @@ footer {
     display: flex;
     height: 100%;
     width: 100%;
+    padding-right: 146px;
 }
 
 .about .ilustration .about-img{
@@ -1964,7 +1968,7 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 82vh;
+    height: 77vh;
     width: 100%;
     margin: auto auto
 
@@ -2017,9 +2021,14 @@ footer {
 }
 
 .about p {
-    margin-top: 3.2vh;
-    font-size: 3.2vh;
-    line-height: 1.5;
+    margin-top: 3.5vh;
+    font-size: 3vh;
+    line-height: 1.45;
+}
+
+.about p b {
+    display: block;
+    margin-top: 5.5vh;
 }
 
 /* -------------------------------------------
