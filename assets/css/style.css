@@ -2682,7 +2682,7 @@ footer {
 }
 
 .wrap-features .telephone {
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     background-image: url('../images/features_lightbulb.png');
     background-position: center;
     background-size: cover;
