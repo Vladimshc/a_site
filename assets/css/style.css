@@ -2823,7 +2823,7 @@ footer {
     top: 14%;
     left: 1.5%;
     width: min-content;
-    z-index: 3;
+    z-index: 2;
 }
 .social .social-item {
     padding: 0.7vh;
