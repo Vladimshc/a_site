@@ -20,7 +20,6 @@
     // UniteGallery();
     // ValidForm();
     slider_slide_3();
-    slider_slide_5();
     slider_slide_6_tel();
     slider_slide_9_tel();
     setLine();
@@ -372,18 +371,6 @@ function slider_slide_3() {
             },
             pagination: {
                 el: '.swiper-pagination-3',
-                clickable: true,
-            },
-        });
-    }
-}
-
-function slider_slide_5() {
-    if ($.exists('.swiper-container-5')) {
-        var swiper = new Swiper('.swiper-container-5', {
-            initialSlide: 1,
-            pagination: {
-                el: '.swiper-pagination-5',
                 clickable: true,
             },
         });
