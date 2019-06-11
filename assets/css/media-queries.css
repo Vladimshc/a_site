@@ -67,6 +67,7 @@
         max-width: 80%;
     }
 }
+
 /* -------------------------------------------
 
     1100px
@@ -380,7 +381,7 @@
 
 @media (max-width: 400px) {
     .container {
-        width: 300px;
+        width: 100%;
         padding-left: 0;
         padding-right: 0;
     }
@@ -411,7 +412,17 @@
 
     .header-1 .main-title {
         text-align: center;
+        margin-top: 15vh;
         padding: 0;
+    }
+    .header-1 .main-title div {
+        margin: 0;
+    }
+    .header-1 .header-phone {
+        display: block;
+        position: absolute;
+        top: 42vh;
+        left: 72px;
     }
 
     .slide-inner--image {
@@ -449,12 +460,25 @@
 
     .swiper-button-next,
     .swiper-button-prev {
-        top: calc(90% - 1px);
+        top: 14%;
+    }
+
+    .expanded-timeline {
+        display: flex;
+        top: calc(-100vh + 100px);
+        left: calc(100% - 200px);
+        width: 140px;
+    }
+    .expanded-timeline .scroll-message {
+        display: none;
+    }
+    .expanded-timeline .expanded-timeline__counter {
+        font-size: 1.5vh;
     }
 
     h1,
     .h1 {
-        font-size: 2em !important;
+        font-size: 5vh !important;
         margin-top: 0;
     }
 
@@ -467,21 +491,28 @@
     }
 
     .white-h2 {
-        margin-top: 2vh;
+        margin-top: 6vh;
     }
 
     .white-h3 {
-        height: 90px;
-        margin-top: 2vh;
-        margin-bottom: 0;
+        height: 82px;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 1.5;
     }
 
     .appstore,
     .playmarket {
+        margin: 0 5px;
         height: 40px;
         line-height: 1;
         font-size: 14px !important;
         padding: 12px 15px !important;
+    }
+    .header-1 .slide-1-video {
+        position: fixed;
+        text-align: center;
+        width: 165px
     }
 
     .waves {
@@ -769,6 +800,7 @@
     .contact-us .wrap-contact-us {
         top: 18%;
     }
+
     .contact-us .padding-masc .container {
         width: 244px;
     }
@@ -781,7 +813,26 @@
     .news input {
         min-width: 10em;
     }
+
+    /*social icon*/
+    .social {
+        display: inline-block;
+        width: auto;
+        top: 0.8vh;
+        left: 1.5%;
+    }
+
+    .social .social-item {
+        display: inline-block;
+        padding: 1.7vh;
+    }
+
+    /*menu*/
+    .navbar-white .hamburger-label {
+        display: none;
+    }
 }
+
 
 /* -------------------------------------------
 
