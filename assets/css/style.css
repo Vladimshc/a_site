@@ -1945,6 +1945,7 @@ footer {
 }
 
 .about .content {
+    width: 65%;
     margin-left: auto;
 }
 

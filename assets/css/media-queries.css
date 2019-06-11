@@ -394,6 +394,8 @@
     .about .ilustration {
         padding: 50px 0 0;
         height: 350px;
+        position: absolute;
+        top: -15vh;
     }
 
     .download .ilustration {
@@ -549,14 +551,27 @@
         height: 100vh;
         margin-top: 0px;
     }
+    .background-about {
+        background-position: 15%;
+    }
 
-    .masc, .padding-masc {
+    .about .masc,
+    .about .padding-masc {
         position: absolute;
-        top: 45%;
+        top: 42%;
         left: 50%;
+        width: 95vw;
         transform: translate(-50%, -50%);
         padding: 20px 0;
         margin: auto 0;
+    }
+    .about .content {
+        width: 100%;
+    }
+    .about h1 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .about .about-text {
@@ -564,13 +579,13 @@
     }
 
     .about p {
-        font-size: 1.3em;
-        line-height: 1.3;
-        margin: 2vh;
+        font-size: 2.6vh;
+        line-height: 1.5;
+        margin: 3vh 20px;
     }
-
-    .about .ilustration {
-        display: none;
+    .about p b {
+        margin-top: 0;
+        text-align: center;
     }
 
     #about .row {
