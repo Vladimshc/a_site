@@ -2505,6 +2505,10 @@ footer {
     z-index: 2;
 }
 
+.app-screenshots h1 {
+    color: #384850;
+}
+
 .wrap-app {
     position: absolute;
     top: 15%;
