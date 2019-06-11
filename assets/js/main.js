@@ -586,6 +586,8 @@ function setLine() {
 }
 
 $('.wrap-head').click(function (event) {
+    console.log('wrap-head click');
+
     $(this).parents("div").find("div.active").removeClass("active");
     $(this).parent().addClass("active");
     var urlImg = 'url(./assets/images/features_' + this.id + '.png)';

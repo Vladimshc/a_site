@@ -613,12 +613,25 @@
     }
 
     /*slide 4*/
-    .features .telephone {
-        display: none;
+    .wrap-features .telephone-container {
+        display: flex;
+        position: absolute;
+        top: 90%;
+        left: 0;
+        padding: 0;
+    }
+    .wrap-features .telephone {
+        width: 25vh;
+        height: 50vh;
+        margin-top: 0;
     }
 
     .wrap-features {
-        top: 45%;
+        top: 35%;
+    }
+    .wrap-features .wrap-container {
+         width: 95%;
+         margin: 0;
     }
 
     .wrap-features .margin-right {
@@ -631,24 +644,25 @@
 
     .wrap-features .item {
         margin-top: 0;
+        margin-bottom: 10px;
     }
 
     .wrap-features h1 {
-        text-align: center;
-        margin-bottom: 0.5vh;
+        position: absolute;
+        top: -9vh;
+        left: 66%;
     }
 
     .wrap-features .item h4 {
         display: inline-block;
-        font-size: 1.1em;
+        font-size: 1.6vh;
         font-weight: bold;
+        width: 80px;
+        text-align: right;
     }
 
     .wrap-features .item p {
-        font-size: 0.8em;
-        font-weight: 500;
-        line-height: 1.2;
-        margin: 0 0 0.5vh;
+        display: none;
     }
 
     .wrap-features .item .wrap-head {
@@ -658,20 +672,12 @@
     }
 
     .wrap-features .item .icon {
-        position: absolute;
-        top: 7px;
-        left: -35px;
         display: inline-block;
-        width: 26px;
-        height: 26px;
-        line-height: 24px;
+        width: 50px;
+        height: 50px;
+        line-height: 55px;
         border-radius: 5px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-    }
-
-    .wrap-features .text-left,
-    .wrap-features .text-right {
-        text-align: center;
     }
 
     .wrap-features .item .margin-right,
@@ -680,7 +686,7 @@
     }
 
     .wrap-features .item .icon .fas {
-        font-size: 1.1em;
+        font-size: 3vh;
     }
 
     .wrap-features .text-left:first-child {
@@ -693,6 +699,19 @@
 
     .wrap-features .item .icon-last .fas {
         color: #BA87E5;
+    }
+
+    .wrap-features .active .arc-line-right{
+        display: none !important;
+    }
+    .wrap-features .active .horizontal-line-right{
+        display: none !important;
+    }
+    .wrap-features .active .arc-line{
+        display: none !important;
+    }
+    .wrap-features .active .horizontal-line{
+        display: none !important;
     }
 
     /*slide 5 */
