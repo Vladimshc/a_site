@@ -35,7 +35,7 @@ function PageTransition() {
     var preload = anime({
         targets: '.ms-preloader',
         opacity: [1, 0],
-        duration: 1000,
+        duration: 2000,
         easing: 'easeInOutCubic',
         complete: function (preload) {
             $('.ms-preloader').css('visibility', 'hidden');
@@ -350,6 +350,8 @@ jQuery('.header-slider-tel').owlCarousel({
 $(window).on('load', function () {
     var $preloader = $('.preloader');
     $preloader.delay(500).fadeOut('slow');
+
+    $('#page-loader').addClass('p-hidden');
 });
 
 // swiper
