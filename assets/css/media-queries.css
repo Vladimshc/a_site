@@ -761,7 +761,11 @@
 
     /*slide 5 */
     .wrap-users {
-        top: 13%;
+        top: 17%;
+        width: 100%;
+    }
+    .wrap-users h1 {
+        font-size: 4.5vh !important;
     }
 
     .swiper-container-5 {
@@ -770,26 +774,45 @@
     }
 
     .swiper-container-5 .swiper-slide {
-        height: 65vh;
+        height: 72vh;
     }
 
     .swiper-container-5 .swiper-wrapper .swiper-slide .user {
-        height: 65vh;
+        height: 21vh;
+        padding: 0 20px;
+        text-align: left;
     }
 
     .swiper-container-5 .swiper-wrapper .swiper-slide .user img {
-        width: 20vh;
+        width: 8vh;
         margin: 15px auto;
         margin-bottom: 10px;
+        display: block;
+        position: absolute;
+        top: 2vh;
+    }
+
+    .swiper-container-5 .swiper-wrapper .swiper-slide .user h4 {
+        margin-left: 11vh;
+        margin-bottom: 0.5vh;
+        padding-top: 3vh;
+        font-size: 2vh;
+    }
+
+    .swiper-container-5 .swiper-wrapper .swiper-slide .user h5 {
+        margin: 0 0 0 11vh;
     }
 
     .swiper-container-5 .swiper-wrapper .swiper-slide .user .stars {
-        margin: 5px auto;
+        margin: 5px 0 5px 11vh;
+        padding: 0;
+        font-size: 1.5vh;
     }
 
     .swiper-container-5 .swiper-wrapper .swiper-slide .user p {
-        font-size: 0.8em;
-        line-height: 3.3vh;
+        font-size: 1.5vh;
+        line-height: 3vh;
+        margin: 0;
     }
 
     .swiper-container-5 .swiper-pagination-5 {
