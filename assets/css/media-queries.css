@@ -380,6 +380,9 @@
 --------------------------------------------- */
 
 @media (max-width: 400px) {
+    .mob-br {
+        display: block;
+    }
     .container {
         width: 100%;
         padding-left: 0;
@@ -467,8 +470,9 @@
 
     .expanded-timeline {
         display: flex;
-        top: calc(-100vh + 100px);
+        top: 10px;
         left: calc(100% - 200px);
+        height: 40px;
         width: 140px;
     }
     .expanded-timeline .scroll-message {
@@ -616,7 +620,7 @@
     .wrap-features .telephone-container {
         display: flex;
         position: absolute;
-        top: 90%;
+        top: 95%;
         left: 0;
         padding: 0;
     }
@@ -627,11 +631,15 @@
     }
 
     .wrap-features {
-        top: 35%;
+        top: 34%;
     }
     .wrap-features .wrap-container {
-         width: 95%;
+         width: 100%;
          margin: 0;
+    }
+    .wrap-features .col-xs-6 {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .wrap-features .margin-right {
@@ -649,16 +657,16 @@
 
     .wrap-features h1 {
         position: absolute;
-        top: -9vh;
+        top: -8vh;
         left: 66%;
     }
 
     .wrap-features .item h4 {
         display: inline-block;
-        font-size: 1.6vh;
+        font-size: 1.7vh;
+        line-height: 1.5;
         font-weight: bold;
-        width: 80px;
-        text-align: right;
+        width: 85px;
     }
 
     .wrap-features .item p {
@@ -668,25 +676,28 @@
     .wrap-features .item .wrap-head {
         position: relative;
         margin-bottom: 0;
-        height: auto;
+        line-height: 8vh;
+        height: 7vh;
     }
 
     .wrap-features .item .icon {
         display: inline-block;
-        width: 50px;
-        height: 50px;
-        line-height: 55px;
+        width: 7vh;
+        height: 7vh;
+        line-height: 7.5vh;
         border-radius: 5px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     }
 
-    .wrap-features .item .margin-right,
+    .wrap-features .item .margin-right {
+        margin-right: 1vh;
+    }
     .wrap-features .item .margin-left {
-        margin-left: 0;
+        margin-left: 1vh;
     }
 
     .wrap-features .item .icon .fas {
-        font-size: 3vh;
+        font-size: 3.6vh;
     }
 
     .wrap-features .text-left:first-child {
