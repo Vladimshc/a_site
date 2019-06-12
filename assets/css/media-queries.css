@@ -433,6 +433,24 @@
         left: 72px;
     }
 
+    .header-1 .header-phone .wrap-img {
+        margin-top: 3vh;
+    }
+
+    .header-phone .ilustration .phone-img {
+        height: 53vh;
+        width: 26.4vh;
+        border-radius: 3.8vh;
+        margin: 4vh auto;
+    }
+
+    .header-phone .ilustration-app .about-img {
+        height: 46vh;
+        width: 16.4vh;
+        border-radius: 4vh;
+        margin: 0 auto;
+    }
+
     .slide-inner--image {
         -webkit-transition: none;
         -moz-transition: none;
