@@ -764,6 +764,7 @@
         top: 17%;
         width: 100%;
     }
+
     .wrap-users h1 {
         font-size: 4.5vh !important;
     }
@@ -924,6 +925,47 @@
     .stats .result span, .stats .result b {
         font-size: 5vh;
     }
+
+    /*slide __9 */
+    .team .padding-masc {
+        width: 88%;
+    }
+
+    .team .wrap-team {
+        top: 19%;
+    }
+
+    .team .post-team {
+        height: 8vh;
+        line-height: 8vh;
+        padding: 0.5vh 0 0 0;
+    }
+
+    .team .team-post-link {
+        margin-bottom: 3vh;
+    }
+
+    .team .team-item {
+        height: 23vh;
+    }
+
+    .team h4 {
+        font-size: 2vh;
+        margin-top: 1vh;
+    }
+
+    .team p {
+        font-size: 1.5vh;
+    }
+
+    .team .post-team span .fab {
+        font-size: 4vh;
+    }
+
+    .team .social-link:hover span .fab {
+        font-size: 4.5vh;
+    }
+
 
     /*slide 9*/
     .blog .wrap-blog {

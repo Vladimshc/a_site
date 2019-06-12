@@ -20,7 +20,7 @@
     // UniteGallery();
     // ValidForm();
     slider_slide_3();
-    slider_slide_6_tel();
+    // slider_slide_6_tel();
     // slider_slide_9_tel();
     setLine();
     setActiv();
