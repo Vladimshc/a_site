@@ -1023,7 +1023,23 @@
 
     /*slide 11*/
     .news .wrap-social {
-        top: 70%;
+        top: 66%;
+        width: 77%;
+    }
+
+    .news .padding-masc {
+        top: 43%;
+        width: 88%;
+    }
+    .news .form-control{
+        height: 4.5vh;
+        border-radius: 10px;
+    }
+    .news .btn-subscribe {
+        height: 4.5vh;
+        padding: 0 12px;
+        border-radius: 10px;
+        float: right;
     }
 
     .news input {
