@@ -547,7 +547,6 @@
 
     .stats .background-img {
         height: 100%;
-
     }
 
     .about {
@@ -796,21 +795,28 @@
     }
 
     /*slide 7*/
+    .stats .masc {
+        width: 90%;
+        top: 50%
+    }
+    .stats h1 {
+        font-size: 6vh !important;
+    }
     .stats .stat .fas,
     .stats .stat .far {
-        font-size: 40px;
+        font-size: 8vh;
     }
-
     .stats .masc .head {
-        margin: 5vh 0 8vh 0;
+        margin: 5vh 0 5vh 0;
     }
-
-    .stat h4 {
-        font-size: 10px;
+    .stats h4 {
+        font-size: 3vh;
     }
-
+    .stats .col-xs-6 {
+        margin-bottom: 10vh;
+    }
     .stats .result span, .stats .result b {
-        font-size: 24px;
+        font-size: 5vh;
     }
 
     /*slide 9*/
