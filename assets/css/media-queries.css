@@ -943,6 +943,8 @@
 
     .team .team-post-link {
         margin-bottom: 3vh;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
     .team .team-item {
@@ -998,12 +1000,26 @@
 
     /*slide 10*/
     .contact-us .wrap-contact-us {
-        top: 18%;
+        top: 20%;
+        width: 100%;
+    }
+
+    .contact-us .padding-masc {
+        top: 53%;
+        width: 100%;
     }
 
     .contact-us .padding-masc .container {
-        width: 244px;
+        width: 86%;
     }
+    .contact-us .form-control{
+        border-radius: 14px;
+    }
+    .contact-us .submit-btn-icon {
+        height: 7vh;
+        width: 7vh;
+    }
+
 
     /*slide 11*/
     .news .wrap-social {
