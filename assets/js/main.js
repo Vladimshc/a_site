@@ -141,6 +141,9 @@ function ms_home_slider() {
             $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length - 2);
             homeSlider.on('slideChange', function () {
                 $('.expanded-timeline__counter span:first-child').text(homeSlider.realIndex + 1);
+                beginDigits();
+                setNavColor("#ffffff", "#384850");
+                disableSocialLastSlide()
             });
         } else {
             homeSlider = new Swiper('.swiper-container', {
@@ -165,6 +168,9 @@ function ms_home_slider() {
             $('.expanded-timeline__counter span:last-child').text(homeSlider.slides.length - 2);
             homeSlider.on('slideChange', function () {
                 $('.expanded-timeline__counter span:first-child').text(homeSlider.realIndex + 1);
+                beginDigits();
+                setNavColor("#ffffff", "#384850");
+                disableSocialLastSlide()
             });
         }
     }
@@ -520,20 +526,6 @@ function setNavColor(colorWhite, colorDark) {
         setActivColor(colorWhite)
     }
 }
-
-$window.bind('mousewheel DOMMouseScroll', function () {
-    beginDigits();
-    setNavColor("#ffffff", "#384850");
-    disableSocialLastSlide()
-
-});
-
-$('.swiper-button-white').click(function () {
-    beginDigits();
-    setNavColor("#ffffff", "#384850");
-    disableSocialLastSlide()
-
-});
 
 function isInViewport(elem) {
     var docViewTop = $window.scrollTop();
