@@ -1566,7 +1566,7 @@ footer {
 }
 
 .header-phone .ilustration .phone-img{
-    background-image: url("../images/indulgence.png");
+    background-image: url("../images/indulgence.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1965,7 +1965,7 @@ footer {
 }
 
 .about .ilustration .about-img{
-    background-image: url("../images/AboutUs.png");
+    background-image: url("../images/AboutUs.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2185,7 +2185,7 @@ footer {
 }
 
 .blog .open {
-    background-image: url("../images/open.png");
+    background-image: url("../images/open.webp");
     width: 77px;
     height: 75px;
 }
@@ -2310,13 +2310,13 @@ footer {
 }
 
 .ilustration-app {
-    /*background-image: url("../images/slide_8_App.png");*/
+    /*background-image: url("../images/slide_8_App.webp");*/
     /*background-size: cover;*/
     height: 100%;
 }
 
 .ilustration-app .about-img{
-    background-image: url("../images/slide_8_App.png");
+    background-image: url("../images/slide_8_App.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2423,7 +2423,7 @@ footer {
 
 .submit-btn-icon {
     display: block;
-    background-image: url("../images/submit.png");
+    background-image: url("../images/submit.webp");
     background-size: cover;
     height: 30px;
     width: 30px;
@@ -2688,7 +2688,7 @@ footer {
 
 .wrap-features .telephone {
     transition-duration: 0.5s;
-    background-image: url('../images/features_lightbulb.png');
+    background-image: url('../images/features_lightbulb.webp');
     background-position: center;
     background-size: cover;
     width: 53vh;

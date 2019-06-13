@@ -590,7 +590,7 @@ $('.wrap-head').click(function (event) {
 
     $(this).parents("div").find("div.active").removeClass("active");
     $(this).parent().addClass("active");
-    var urlImg = 'url(./assets/images/features_' + this.id + '.png)';
+    var urlImg = 'url(./assets/images/features_' + this.id + '.webp)';
     $(".telephone").css('background-image', urlImg);
 });
 
