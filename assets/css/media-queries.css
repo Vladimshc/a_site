@@ -534,7 +534,7 @@
     }
 
     .white-h3 {
-        height: 82px;
+        height: 11vh;
         width: 80%;
         margin: 0 auto;
         line-height: 1.5;
@@ -545,7 +545,7 @@
         margin: 1vh 5px;
         height: 40px;
         line-height: 1;
-        font-family: SegoeUIBold;
+        font-family: 'SegoeUISemibold';
         font-size: 14px !important;
         padding: 12px 15px !important;
     }
