@@ -1040,7 +1040,7 @@
     }
 
     .contact-us .padding-masc {
-        top: 53%;
+        top: 46%;
         width: 100%;
     }
 
@@ -1059,23 +1059,31 @@
 
 
     /*slide 11*/
+    .news .wrap-news {
+        top: 16%;
+    }
+
     .news .wrap-social {
-        top: 66%;
+        top: 43%;
         width: 77%;
     }
 
+    .news form-group {
+        margin-bottom: 20px;
+    }
+
     .news .padding-masc {
-        top: 43%;
+        top: 27%;
         width: 88%;
     }
 
     .news .form-control {
-        height: 4.5vh;
+        height: 3.5vh;
         border-radius: 10px;
     }
 
     .news .btn-subscribe {
-        height: 4.5vh;
+        height: 3.5vh;
         padding: 0 12px;
         border-radius: 10px;
         float: right;
