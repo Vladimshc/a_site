@@ -856,15 +856,15 @@
     .team-tel-container {
         display: block;
         position: absolute;
-        top: 0;
+        top: -50%;
         left: 50%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%, -50%);
         width: 100%;
     }
 
     .team-tel-container .item {
-        width: 75%;
-        height: 20vh;
+        width: 82%;
+        height: 16vh;
         margin: 0 auto;
         margin-bottom: 2vh;
         background-color: #ffffff;
@@ -873,21 +873,21 @@
     }
 
     .team-tel-container .wrap-image {
-        width: 40%;
-        height: 16.5vh;
+        width: 25%;
+        height: 12.5vh;
         display: inline-block;
         overflow: hidden;
     }
 
     .team-tel-container .wrap-image img {
-        height: 16.5vh;
+        height: 12.5vh;
         width: auto;
         transform: translate(-18%);
     }
 
     .team-tel-container .wrap-content {
-        width: 60%;
-        height: 16.5vh;
+        width: 75%;
+        height: 12.5vh;
         padding: 0 10px;
         display: inline-block;
         text-align: left;
@@ -896,13 +896,13 @@
     .team-tel-container .wrap-content h4 {
         margin-top: 1vh;
         margin-bottom: 1vh;
-        font-size: 2vh;
+        font-size: 1.7vh;
         font-weight: bold;
     }
 
     .team-tel-container .wrap-content p {
-        font-size: 1.4vh;
-        line-height: 1.7;
+        font-size: 1.25vh;
+        line-height: 1.8;
         font-weight: 200;
     }
 
@@ -1001,7 +1001,7 @@
 
     /*slide 9*/
     .blog .wrap-blog {
-        top: 20%;
+        top: 18%;
     }
 
     .blog .container {
