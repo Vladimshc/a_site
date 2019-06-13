@@ -274,11 +274,12 @@
 
     .slide-1-video {
         margin-top: 0px !important;
+        margin-left: 10px !important;
     }
 
     .waves {
         margin: 50px auto !important;
-        width: fit-content !important;
+        width: 40px !important;
     }
 
     .content-center {
@@ -418,7 +419,7 @@
 
     .header-1 .main-title {
         text-align: center;
-        margin-top: 15vh;
+        margin-top: 14vh;
         padding: 0;
     }
 
@@ -429,24 +430,25 @@
     .header-1 .header-phone {
         display: block;
         position: absolute;
-        top: 42vh;
-        left: 72px;
+        top: 33vh;
+        left: 64px;
     }
 
     .header-1 .header-phone .wrap-img {
-        margin-top: 3vh;
+        margin-top: 9vh;
+        margin-left: 10px;
     }
 
     .header-phone .ilustration .phone-img {
-        height: 53vh;
-        width: 26.4vh;
+        height: 66vh;
+        width: 32.4vh;
         border-radius: 3.8vh;
         margin: 4vh auto;
     }
 
     .header-phone .ilustration-app .about-img {
-        height: 46vh;
-        width: 16.4vh;
+        height: 47vh;
+        width: 20.4vh;
         border-radius: 4vh;
         margin: 0 auto;
     }
@@ -486,7 +488,7 @@
 
     .swiper-button-next,
     .swiper-button-prev {
-        top: 12%;
+        top: 10%;
     }
 
     .expanded-timeline {
@@ -494,7 +496,7 @@
         top: 10px;
         left: calc(100% - 200px);
         height: 40px;
-        width: 140px;
+        width: 130px;
     }
 
     .expanded-timeline .scroll-message {
@@ -502,7 +504,7 @@
     }
 
     .expanded-timeline .expanded-timeline__counter {
-        font-size: 1.5vh;
+        font-size: 1.3vh;
     }
 
     h1,
@@ -512,15 +514,23 @@
     }
 
     h2 {
-        font-size: 1.4em !important;
+        font-size: 3.8vh !important;
     }
 
     h3 {
-        font-size: 1.3em !important;
+        font-size: 2.5vh !important;
     }
 
     .white-h2 {
-        margin-top: 6vh;
+        margin-top: 2vh;
+        line-height: 1.4;
+    }
+
+
+    .white-h2 span {
+        display: block;
+        font-size: 2.4vh;
+        line-height: 1;
     }
 
     .white-h3 {
@@ -532,9 +542,10 @@
 
     .appstore,
     .playmarket {
-        margin: 0 5px;
+        margin: 1vh 5px;
         height: 40px;
         line-height: 1;
+        font-family: SegoeUIBold;
         font-size: 14px !important;
         padding: 12px 15px !important;
     }
@@ -547,7 +558,7 @@
 
     .waves {
         height: 40px;
-        margin: 5vh auto !important;
+        margin: 3.2vh auto !important;
     }
 
     .waves .circle-1 {
@@ -563,10 +574,17 @@
 
     .waves .circle {
         top: -90px;
-        left: -2px;
-        width: 40px;
-        height: 40px;
-        font-size: 24px;
+        left: -9px;
+        width: 60px;
+        height: 60px;
+    }
+    .waves .circle .circle-wite {
+        top: -90px;
+        left: -9px;
+        width: 30px;
+        height: 30px;
+        z-index: 10;
+        background-color: white;
     }
 
     .stats .background-img {
@@ -895,6 +913,12 @@
         font-size: 1.4vh;
     }
 
+    /*slide __7*/
+    .slide-7 .slide-1-video {
+        margin-top: 3vh !important;
+        margin-left: 30px !important;
+    }
+
     /*slide 7*/
     .stats .masc {
         width: 90%;
@@ -1012,9 +1036,11 @@
     .contact-us .padding-masc .container {
         width: 86%;
     }
-    .contact-us .form-control{
+
+    .contact-us .form-control {
         border-radius: 14px;
     }
+
     .contact-us .submit-btn-icon {
         height: 7vh;
         width: 7vh;
@@ -1031,10 +1057,12 @@
         top: 43%;
         width: 88%;
     }
-    .news .form-control{
+
+    .news .form-control {
         height: 4.5vh;
         border-radius: 10px;
     }
+
     .news .btn-subscribe {
         height: 4.5vh;
         padding: 0 12px;
@@ -1050,13 +1078,17 @@
     .social {
         display: inline-block;
         width: auto;
-        top: 0.8vh;
+        top: 0;
         left: 1.5%;
     }
 
     .social .social-item {
         display: inline-block;
         padding: 1.7vh;
+    }
+
+    .social .social-item .fab {
+        font-size: 2.6vh;
     }
 
     /*menu*/
