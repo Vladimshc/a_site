@@ -398,9 +398,13 @@
 
     .about .ilustration {
         padding: 50px 0 0;
-        height: 350px;
+        height: 110px;
         position: absolute;
-        top: -15vh;
+        top: -6vh;
+    }
+    .about .ilustration .about-img {
+         background-size: cover;
+        height: 100vh;
     }
 
     .download .ilustration {
@@ -509,7 +513,7 @@
 
     h1,
     .h1 {
-        font-size: 5vh !important;
+        font-size: 4vh !important;
         margin-top: 0;
     }
 
@@ -604,7 +608,7 @@
     .about .masc,
     .about .padding-masc {
         position: absolute;
-        top: 42%;
+        top: 34%;
         left: 50%;
         width: 95vw;
         transform: translate(-50%, -50%);
@@ -620,6 +624,7 @@
         text-align: center;
         margin-top: 0;
         margin-bottom: 0;
+        font-size: 4vh !important;
     }
 
     .about .about-text {
@@ -627,9 +632,10 @@
     }
 
     .about p {
-        font-size: 2.6vh;
+        font-size: 2vh;
         line-height: 1.5;
-        margin: 3vh 20px;
+        text-align: center;
+        margin: 2vh 20px;
     }
 
     .about p b {
@@ -643,18 +649,18 @@
 
     /*slide 3*/
     .wrap-app {
-        top: 18%;
+        top: 16%;
         width: 100%;
     }
 
     .swiper-container-3 {
-        top: 60%;
+        top: 52%;
         padding-top: 10px;
     }
 
     .swiper-container-3 .swiper-slide {
-        width: 26vh;
-        height: 57vh;
+        width: 24vh;
+        height: 53vh;
     }
 
     .swiper-container-3 .swiper-pagination-3 {

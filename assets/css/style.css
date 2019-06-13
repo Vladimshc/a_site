@@ -167,6 +167,10 @@ p {
     font-weight: 300;
 }
 
+b {
+    font-family: SegoeUIBold, sans-serif;
+}
+
 /* 1.2 Specials Classes */
 
 .c-white {
@@ -1972,7 +1976,7 @@ footer {
 }
 
 .about .content {
-    width: 65%;
+    width: 59%;
     margin-left: auto;
 }
 
@@ -1984,7 +1988,6 @@ footer {
 }
 
 .about .ilustration {
-    /*position: absolute;*/
     display: flex;
     height: 100%;
     width: 100%;
@@ -2049,8 +2052,8 @@ footer {
 }
 
 .about p {
-    margin-top: 3.5vh;
-    font-size: 3vh;
+    margin-top: 3.3vh;
+    font-size: 2.6vh;
     line-height: 1.45;
 }
 
