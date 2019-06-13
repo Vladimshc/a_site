@@ -1506,7 +1506,7 @@ footer {
     color: rgba(247, 250, 251, 1);
     -webkit-text-shadow: 0 0 35px rgba(0, 0, 0, .3);
     text-shadow: 0 0 35px rgba(0, 0, 0, .3);
-    width: 100%;
+    width: 90%;
 }
 
 .white b {
