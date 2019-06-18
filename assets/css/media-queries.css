@@ -447,7 +447,7 @@
     .header-1 .header-phone {
         display: block;
         position: absolute;
-        top: 33vh;
+        top: 28vh;
         left: 64px;
     }
 
@@ -546,7 +546,7 @@
     }
 
     .white-h2 {
-        margin-top: 2vh;
+        margin-top: 6.5vh;
         line-height: 1.4;
     }
 
@@ -574,6 +574,10 @@
         padding: 12px 15px !important;
     }
 
+    .header-1 .video-button {
+        margin: 4vh auto !important;
+    }
+
     .header-1 .slide-1-video {
         position: fixed;
         text-align: center;
@@ -598,7 +602,7 @@
 
     .waves .circle {
         top: -90px;
-        left: -9px;
+        left: -10px;
         width: 60px;
         height: 60px;
     }
@@ -862,9 +866,9 @@
         display: inline-block;
         width: 7vh;
         height: 7vh;
-        line-height: 7.5vh;
+        line-height: 8vh;
         text-align: center;
-        border-radius: 5px;
+        border-radius: 1.3vh;
         -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     }
@@ -1157,12 +1161,12 @@
 
     /*slide 10*/
     .contact-us .wrap-contact-us {
-        top: 18%;
+        top: 17%;
         width: 100%;
     }
 
     .contact-us .padding-masc {
-        top: 46%;
+        top: 42%;
         width: 100%;
     }
 
@@ -1171,12 +1175,16 @@
     }
 
     .contact-us .form-control {
-        border-radius: 14px;
+        border-radius: 10px;
+    }
+    .contact-us input {
+        height: 3.5vh;
+        border-radius: 10px;
     }
 
     .contact-us .submit-btn-icon {
-        height: 7vh;
-        width: 7vh;
+        height: 6vh;
+        width: 6vh;
     }
 
 
