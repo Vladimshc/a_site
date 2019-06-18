@@ -1079,12 +1079,17 @@
 
     /*slide __9 */
     .team .padding-masc {
-        width: 88%;
+        width: 89%;
         top: 49%;
     }
 
     .team .wrap-team {
         top: 19%;
+    }
+
+    .team .padding-masc .col-xs-6 {
+        width: 49%;
+        margin: 0 auto;
     }
 
     .team .post-team {
@@ -1338,3 +1343,13 @@
     }
 
 }
+
+
+/** { outline: 2px dotted red; }*/
+/** * { outline: 2px dotted green; }*/
+/** * * { outline: 2px dotted orange; }*/
+/** * * * { outline: 2px dotted blue; }*/
+/** * * * * { outline: 1px solid red; }*/
+/** * * * * * { outline: 1px solid green; }*/
+/** * * * * * * { outline: 1px solid orange; }*/
+/** * * * * * * * { outline: 1px solid blue; }*/
