@@ -1384,7 +1384,7 @@ b {
 .form-group {
     position: relative;
     margin: 0;
-    margin-bottom: 20px !important;
+    /*margin-bottom: 20px !important;*/
     -webkit-transition: border-color .3s ease;
     -o-transition: border-color .3s ease;
     transition: border-color .3s ease;
