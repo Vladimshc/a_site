@@ -968,6 +968,8 @@
     /*slide 6*/
     .blog .padding-masc {
         width: 100%;
+        top: 0;
+        margin-top: 55vh;
     }
 
     .team-tel-container {
@@ -1007,7 +1009,7 @@
     }
 
     .team-tel-container .wrap-content {
-        width: 75%;
+        width: 74%;
         height: 12.5vh;
         padding: 0 10px;
         display: inline-block;
@@ -1136,7 +1138,8 @@
 
     /*slide 9*/
     .blog .wrap-blog {
-        top: 18%;
+        top: 0%;
+        margin-top: 18vh;
     }
 
     .blog .container {
