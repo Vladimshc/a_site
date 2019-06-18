@@ -1174,11 +1174,15 @@
         width: 86%;
     }
 
+    .contact-us .form-group {
+         margin-bottom: 10px !important;
+    }
+
     .contact-us .form-control {
         border-radius: 10px;
     }
     .contact-us input {
-        height: 3.5vh;
+        height: 30px;
         border-radius: 10px;
     }
 
