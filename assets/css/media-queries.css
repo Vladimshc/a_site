@@ -506,7 +506,7 @@
     .swiper-button-next,
     .swiper-button-prev {
         top: 0%;
-        margin-top: 8vh;
+        margin-top: 65px;
     }
 
     .expanded-timeline {
@@ -524,12 +524,12 @@
     }
 
     .expanded-timeline .expanded-timeline__counter {
-        font-size: 1.3vh;
+        font-size: 10px;
     }
 
     h1,
     .h1 {
-        font-size: 4vh !important;
+        font-size: 36px !important;
         margin-top: 0;
     }
 
@@ -1163,13 +1163,13 @@
     /*slide 10*/
     .contact-us .wrap-contact-us {
         top: 0%;
-        margin-top: 17vh;
+        margin-top: 138px;
         width: 100%;
     }
 
     .contact-us .padding-masc {
         top: 0%;
-        margin-top: 42vh;
+        margin-top: 341px;
         width: 100%;
     }
 
@@ -1198,12 +1198,12 @@
     /*slide 11*/
     .news .wrap-news {
         top: 0%;
-        margin-top: 16vh;
+        margin-top: 130px;
     }
 
     .news .wrap-social {
         top: 0%;
-        margin-top: 43vh;
+        margin-top: 350px;
         width: 77%;
     }
 
@@ -1213,7 +1213,7 @@
 
     .news .padding-masc {
         top: 0%;
-        margin-top: 27vh;
+        margin-top: 220px;
         width: 88%;
     }
 
@@ -1243,11 +1243,11 @@
 
     .social .social-item {
         display: inline-block;
-        padding: 1.7vh;
+        padding: 14px;
     }
 
     .social .social-item .fab {
-        font-size: 2.6vh;
+        font-size: 20px;
     }
 
     /*menu*/

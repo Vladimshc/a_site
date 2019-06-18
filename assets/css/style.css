@@ -332,7 +332,7 @@ b {
  */
 
 .ms-header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: #fff;
     z-index: 3;
@@ -3087,7 +3087,7 @@ footer {
 
 /*Sotial icons*/
 .social {
-    position: fixed;
+    position: absolute;
     top: 14%;
     left: 1.5%;
     width: -webkit-min-content;
