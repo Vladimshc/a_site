@@ -2571,6 +2571,40 @@ footer {
     text-shadow: 0 0 35px rgba(0, 0, 0, .1);
 }
 
+.stat .phone {
+    background-image: url("../images/phone.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vh;
+}
+
+.stat .happy {
+    background-image: url("../images/happy.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vh;
+}
+.stat .profile-male {
+    background-image: url("../images/profile-male.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vh;
+}
+.stat .presentation {
+    background-image: url("../images/presentation.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vh;
+}
+
 .stats .stat .far {
     font-size: 110px;
     color: rgba(247, 250, 251, 1);

@@ -542,7 +542,7 @@
     }
 
     .white {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1049,11 +1049,11 @@
     /*slide 7*/
     .stats .masc {
         width: 90%;
-        top: 50%
+        top: 45%
     }
 
     .stats h1 {
-        font-size: 6vh !important;
+        font-size: 4.5vh !important;
     }
 
     .stats .stat .fas,
@@ -1062,19 +1062,19 @@
     }
 
     .stats .masc .head {
-        margin: 5vh 0 5vh 0;
+        margin: 0 0 2vh 0;
     }
 
     .stats h4 {
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
 
     .stats .col-xs-6 {
-        margin-bottom: 10vh;
+        margin-bottom: 5vh;
     }
 
     .stats .result span, .stats .result b {
-        font-size: 5vh;
+        font-size: 4vh;
     }
 
     /*slide __9 */
