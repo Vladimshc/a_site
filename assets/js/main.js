@@ -120,6 +120,7 @@ function ms_home_slider() {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
             // Take the user to a different screen here.
             homeSlider = new Swiper('.swiper-container', {
+                initialSlide: 0,
                 loop: true,
                 speed: 0,
                 grabCursor: false,
@@ -147,6 +148,7 @@ function ms_home_slider() {
             });
         } else {
             homeSlider = new Swiper('.swiper-container', {
+                initialSlide: 0,
                 loop: true,
                 speed: 1000,
                 grabCursor: false,

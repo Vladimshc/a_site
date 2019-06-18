@@ -3092,6 +3092,11 @@ footer {
     display: none;
 }
 
+/*slide 4 features telephone*/
+.wrap-features-tel {
+    display: none;
+}
+
 /*Sotial icons*/
 .social {
     position: fixed;
