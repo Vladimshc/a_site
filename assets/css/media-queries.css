@@ -436,6 +436,10 @@
         padding: 0;
     }
 
+    .header-1 .wrap-app-content {
+        width: 100%;
+    }
+
     .header-1 .main-title div {
         margin: 0;
     }
@@ -537,7 +541,8 @@
     }
 
     .white {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .white-h2 {
@@ -1152,7 +1157,7 @@
 
     /*slide 10*/
     .contact-us .wrap-contact-us {
-        top: 20%;
+        top: 18%;
         width: 100%;
     }
 
