@@ -514,9 +514,9 @@
         display: -ms-flexbox;
         display: flex;
         top: 10px;
-        left: calc(100% - 200px);
+        left: 50vw;
         height: 40px;
-        width: 130px;
+        width: 30vw;
     }
 
     .expanded-timeline .scroll-message {
@@ -905,13 +905,19 @@
 
     /*slide 5 */
     .wrap-users {
-        top: 16%;
+        top: 0;
         width: 100%;
+        margin-top: calc(125px + 2vh);
+    }
+
+    .wrap-users .container h1 {
+        font-size: 4vh !important;
     }
 
     .swiper-container-5 {
-        top: 54%;
+        top: 0;
         padding-top: 0;
+        margin-top: calc(250px + 25vh);
     }
 
     .swiper-container-5 .swiper-slide {
@@ -967,8 +973,9 @@
     /*slide 6*/
     .blog .padding-masc {
         width: 100%;
-        top: 0;
-        margin-top: 55vh;
+        top: 125%;
+        height: 100vh;
+        margin-top: calc(170px + 2vh);
     }
 
     .team-tel-container {
@@ -1081,11 +1088,14 @@
     /*slide __9 */
     .team .padding-masc {
         width: 89%;
-        top: 49%;
+        top: 0;
+        margin-top: calc(180px + 25vh);
     }
 
     .team .wrap-team {
-        top: 19%;
+        top: 0;
+        width: 100%;
+        margin-top: calc(125px + 2vh);
     }
 
     .team .padding-masc .col-xs-6 {
@@ -1137,8 +1147,8 @@
 
     /*slide 9*/
     .blog .wrap-blog {
-        top: 0%;
-        margin-top: 18vh;
+        top: 25px;
+        margin-top: calc(100px + 2vh);
     }
 
     .blog .container {
