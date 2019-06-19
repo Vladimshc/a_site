@@ -122,13 +122,17 @@ function ms_home_slider() {
             homeSlider = new Swiper('.swiper-container', {
                 initialSlide: 0,
                 loop: true,
-                speed: 1000,
+                speed: 1500,
                 grabCursor: false,
                 mousewheel: true,
                 keyboard: true,
                 simulateTouch: false,
                 parallax: false,
                 effect: 'slide',
+                preloadImages: false,
+                lazy: {
+                    loadPrevNext: true,
+                },
                 pagination: {
                     el: '.swiper-pagination',
                     type: 'progressbar',
@@ -150,13 +154,17 @@ function ms_home_slider() {
             homeSlider = new Swiper('.swiper-container', {
                 initialSlide: 0,
                 loop: true,
-                speed: 1000,
+                speed: 1500,
                 grabCursor: false,
                 mousewheel: true,
                 keyboard: true,
                 simulateTouch: false,
                 parallax: false,
                 effect: 'slide',
+                preloadImages: false,
+                lazy: {
+                    loadPrevNext: true,
+                },
                 pagination: {
                     el: '.swiper-pagination',
                     type: 'progressbar',

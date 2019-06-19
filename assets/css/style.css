@@ -1,10 +1,12 @@
 @font-face {
     font-family: 'SegoeUILight';
+    font-display: auto;
     src: url('../fonts/SegoeUILight.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'SegoeUISemibold';
+    font-display: auto;
     src: url('../fonts/SegoeUISemibold.ttf') format('truetype');
 }
 
@@ -2536,7 +2538,7 @@ footer {
 }
 
 .ilustration-app .about-img {
-    background-image: url("../images/slide_8_App.png");
+    /*background-image: url("../images/slide_8_App.png");*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2597,7 +2599,7 @@ footer {
 }
 
 .stat .phone {
-    background-image: url("../images/phone.png");
+    /*background-image: url("../images/phone.png");*/
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2606,7 +2608,7 @@ footer {
 }
 
 .stat .happy {
-    background-image: url("../images/happy.png");
+    /*background-image: url("../images/happy.png");*/
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2614,7 +2616,7 @@ footer {
     height: 12vh;
 }
 .stat .profile-male {
-    background-image: url("../images/profile-male.png");
+    /*background-image: url("../images/profile-male.png");*/
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2622,7 +2624,7 @@ footer {
     height: 12vh;
 }
 .stat .presentation {
-    background-image: url("../images/presentation.png");
+    /*background-image: url("../images/presentation.png");*/
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2695,7 +2697,7 @@ footer {
 
 .submit-btn-icon {
     display: block;
-    background-image: url("../images/submit.png");
+    /*background-image: url("../images/submit.png");*/
     background-size: cover;
     height: 30px;
     width: 30px;
