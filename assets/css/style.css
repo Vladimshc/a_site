@@ -1697,6 +1697,12 @@ footer {
     position: relative;
     overflow: hidden;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .header-1 {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .header-1 .header-phone {
@@ -2106,6 +2112,12 @@ footer {
     display: -ms-flexbox;
     display: flex;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .about {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .about h1 {
@@ -2225,6 +2237,12 @@ footer {
     margin: 0 auto;
     color: #384850;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .blog {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .blog .wrap-blog {
@@ -2390,6 +2408,12 @@ footer {
     margin: 0 auto;
     color: #384850;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .team {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .team .wrap-team {
@@ -2532,6 +2556,12 @@ footer {
     position: relative;
     height: 100vh;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .stats {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .stats .masc {
@@ -2629,6 +2659,12 @@ footer {
     margin: 0 auto;
     color: #384850;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .contact-us {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .contact-us .wrap-contact-us {
@@ -2673,6 +2709,12 @@ footer {
     margin: 0 auto;
     color: #384850;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .news {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .news .wrap-news {
@@ -2749,6 +2791,12 @@ footer {
     position: relative;
     height: 100vh;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .app-screenshots {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .app-screenshots h1 {
@@ -2805,6 +2853,12 @@ footer {
     position: relative;
     height: 100vh;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .users {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .wrap-users {
@@ -2916,6 +2970,12 @@ footer {
     position: relative;
     height: 100vh;
     z-index: 2;
+    opacity: 0;
+}
+
+.swiper-slide-active .features {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
 }
 
 .wrap-features {

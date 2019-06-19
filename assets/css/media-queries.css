@@ -333,61 +333,6 @@
 --------------------------------------------- */
 
 @media (max-width: 500px) {
-    .container {
-        width: 400px;
-    }
-
-    .ilustration {
-        -webkit-transform: scale(8.5);
-        -ms-transform: scale(8.5);
-        transform: scale(8.5);
-    }
-}
-
-/* -------------------------------------------
-
-    450px
-
---------------------------------------------- */
-
-@media (max-width: 450px) {
-    .ilustration {
-        -webkit-transform: scale(.7);
-        -ms-transform: scale(.7);
-        transform: scale(.7);
-    }
-
-    .about .ilustration {
-        padding: 90px 0 0;
-        height: 400px;
-    }
-
-    .download .ilustration {
-        padding: 90px 0 0;
-        height: 400px;
-    }
-
-    .download h2 {
-        font-size: 50px;
-    }
-
-    .faq .ilustration {
-        padding: 90px 0 0;
-        height: 400px;
-    }
-
-    .panel-title i {
-        display: none;
-    }
-}
-
-/* -------------------------------------------
-
-    400px
-
---------------------------------------------- */
-
-@media (max-width: 400px) {
     .mob-br {
         display: block;
     }
@@ -543,6 +488,7 @@
 
     .white {
         width: 100%;
+        max-width: 500px;
         margin: 0 auto;
     }
 
