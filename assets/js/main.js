@@ -127,7 +127,7 @@ function ms_home_slider() {
                 mousewheel: true,
                 keyboard: true,
                 simulateTouch: false,
-                parallax: true,
+                parallax: false,
                 effect: 'slide',
                 pagination: {
                     el: '.swiper-pagination',
@@ -155,7 +155,7 @@ function ms_home_slider() {
                 mousewheel: true,
                 keyboard: true,
                 simulateTouch: false,
-                parallax: true,
+                parallax: false,
                 effect: 'slide',
                 pagination: {
                     el: '.swiper-pagination',
