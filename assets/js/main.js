@@ -122,7 +122,7 @@ function ms_home_slider() {
             homeSlider = new Swiper('.swiper-container', {
                 initialSlide: 0,
                 loop: true,
-                speed: 0,
+                speed: 1000,
                 grabCursor: false,
                 mousewheel: true,
                 keyboard: true,
