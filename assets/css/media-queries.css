@@ -432,7 +432,7 @@
 
     .header-1 .main-title {
         text-align: center;
-        margin-top: 14vh;
+        margin-top: calc(100px + 2vh);
         padding: 0;
     }
 
@@ -633,15 +633,9 @@
 
     .about .masc,
     .about .padding-masc {
-        position: absolute;
-        top: 34%;
-        left: 50%;
-        width: 95vw;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        padding: 20px 0;
-        margin: auto 0;
+        margin-top: calc(100px + 2vh);
+        width: 95%;
+        padding: 0;
     }
 
     .about .content {
@@ -677,12 +671,17 @@
 
     /*slide 3*/
     .wrap-app {
-        top: 16%;
+        top: 25px;
         width: 100%;
+        margin-top: calc(100px + 2vh);
+    }
+
+    .app-screenshots .wrap-app h1 {
+        font-size: 4vh !important;
     }
 
     .swiper-container-3 {
-        top: 52%;
+        top: 60%;
         padding-top: 10px;
     }
 
@@ -1186,12 +1185,13 @@
     }
 
     .contact-us .form-group {
-         margin-bottom: 10px !important;
+        margin-bottom: 10px !important;
     }
 
     .contact-us .form-control {
         border-radius: 10px;
     }
+
     .contact-us input {
         height: 30px;
         border-radius: 10px;
