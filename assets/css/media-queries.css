@@ -51,14 +51,6 @@
         font-size: 30px;
     }
 
-    .navbar li a {
-        font-size: 14px;
-    }
-
-    .social-icons ul {
-        padding-bottom: 0;
-    }
-
     .container {
         width: 870px;
     }
@@ -82,10 +74,6 @@
         -webkit-transform: scale(.7);
         -ms-transform: scale(.7);
         transform: scale(.7)
-    }
-
-    .social-icons {
-        display: none;
     }
 
     .container {
@@ -119,120 +107,8 @@
         padding: 30px 0;
     }
 
-    .blog .subscribe {
-        margin-top: 0;
-    }
-
     .about .about-text {
         height: 100%;
-    }
-
-    .video .video-text div {
-        margin: auto;
-        text-align: center;
-    }
-
-    .download .download-text {
-        height: 100%;
-        text-align: center;
-    }
-
-    .faq .faq-text {
-        height: 100%;
-        text-align: center;
-    }
-
-    .blog .subscribe-text {
-        height: 100%;
-        margin-bottom: 30px;
-    }
-
-    .blog .subscribe-text div {
-        margin: auto;
-    }
-
-    .blog .subscribe .subscribe-input {
-        height: 100%;
-    }
-
-    .start {
-        padding-bottom: 0;
-        text-align: center;
-    }
-
-    .advantages-phone {
-        display: none;
-    }
-
-    .navbar {
-        font-size: 26px;
-        padding-top: 10px;
-        display: block;
-        height: 70px;
-        -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, .1), 0 3px 12px rgba(0, 0, 0, .1);
-        box-shadow: 0 3px 12px rgba(0, 0, 0, .1), 0 3px 12px rgba(0, 0, 0, .1);
-    }
-
-    .navbar-brand h3 {
-        font-size: 26px;
-    }
-
-    .navbar-brand img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .scrolled .navbar-brand img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .navbar-collapse {
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        margin-top: 7px;
-        padding: 5px 15px 15px;
-        text-align: center;
-        opacity: .95;
-        -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, .1), 0 3px 12px rgba(0, 0, 0, .1);
-        box-shadow: 0 3px 12px rgba(0, 0, 0, .1), 0 3px 12px rgba(0, 0, 0, .1);
-    }
-
-    .navbar-collapse li {
-        padding: 0 15px;
-    }
-
-    footer {
-        height: 100%;
-        text-align: center;
-    }
-
-    footer .copyright p {
-        width: 100%;
-        text-align: center;
-        margin: auto;
-    }
-
-    footer .footer-brand {
-        display: block;
-    }
-
-    footer .footer-brand img {
-        width: 40px;
-    }
-
-    footer .footer-social {
-        display: block;
-        height: 100%;
-        margin-top: 15px;
-    }
-
-    footer {
-        padding-top: 30px;
-    }
-
-    .blog .subscribe h3 {
-        margin: 0;
     }
 
     .features ul li {
@@ -240,9 +116,8 @@
         margin: 0 0 30px;
     }
 
-    .start .padding-masc,
+    
     .team .padding-masc,
-    .price .padding-masc,
     .features .padding-masc,
     .stats .masc {
         padding-bottom: 0;
@@ -293,19 +168,6 @@
     .dwnld-btn {
         margin: 7.5px;
     }
-
-    .text-right-adaptive {
-        text-align: left;
-    }
-
-    .hiden {
-        display: block;
-        display: inline-block;
-    }
-
-    .future .left {
-        display: none;
-    }
 }
 
 /* -------------------------------------------
@@ -319,10 +181,6 @@
         -webkit-transform: scale(.9);
         -ms-transform: scale(.9);
         transform: scale(.9);
-    }
-
-    .social-icons {
-        visibility: hidden;
     }
 }
 
@@ -359,16 +217,6 @@
     .about .ilustration .about-img {
         background-size: cover;
         height: 100vh;
-    }
-
-    .download .ilustration {
-        padding: 50px 0 0;
-        height: 350px;
-    }
-
-    .faq .ilustration {
-        padding: 50px 0 0;
-        height: 350px;
     }
 
     .header-1 {
@@ -423,29 +271,6 @@
 
     .main-title {
         height: 100vh;
-    }
-
-    .owl-theme .owl-nav {
-        position: relative;
-        height: 0px;
-        width: 150px;
-        margin: 0 auto;
-    }
-
-    .owl-theme .owl-prev {
-        position: relative;
-        top: -16vh;
-    }
-
-    .owl-theme .owl-next {
-        position: relative;
-        left: 25px;
-        top: -16vh;
-    }
-
-    .background-img {
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .swiper-button-next,
@@ -561,10 +386,6 @@
         height: 30px;
         z-index: 10;
         background-color: white;
-    }
-
-    .stats .background-img {
-        height: 100%;
     }
 
     .about {
@@ -735,30 +556,6 @@
         margin-top: 0;
     }
 
-    .wrap-features .item .icon-last {
-        background: initial;
-    }
-
-    .wrap-features .item .icon-last .fas {
-        color: #BA87E5;
-    }
-
-    .wrap-features .active .arc-line-right {
-        display: none !important;
-    }
-
-    .wrap-features .active .horizontal-line-right {
-        display: none !important;
-    }
-
-    .wrap-features .active .arc-line {
-        display: none !important;
-    }
-
-    .wrap-features .active .horizontal-line {
-        display: none !important;
-    }
-
     /*features slide tel*/
     .wrap-features-tel {
         display: block;
@@ -783,20 +580,6 @@
 
     .wrap-features-tel .wrap-head:hover {
         cursor: pointer;
-    }
-
-    .wrap-features-tel .active .icon {
-        background: -webkit-gradient(linear, left top, right top, from(#F768A6), to(#F58768));
-        background: -webkit-linear-gradient(left, #F768A6, #F58768);
-        background: -o-linear-gradient(left, #F768A6, #F58768);
-        background: linear-gradient(0.25turn, #F768A6, #F58768);
-    }
-
-    .wrap-features-tel .active .icon .fas {
-        -webkit-transition-duration: 1s;
-        -o-transition-duration: 1s;
-        transition-duration: 1s;
-        color: #fff !important;
     }
 
     .wrap-features-tel .wrap-head h4 {
@@ -906,10 +689,6 @@
         font-size: 1.3vh;
         line-height: 2.5vh;
         margin: 0;
-    }
-
-    .swiper-container-5 .swiper-pagination-5 {
-        margin: 15px auto;
     }
 
     .tel-none {
@@ -1101,23 +880,6 @@
         width: 300px;
     }
 
-    .swiper-container-9-tel .container {
-        width: 240px;
-    }
-
-    .swiper-container-9-tel .swiper-pagination-9-tel {
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        margin: 15px auto;
-    }
-
-    .swiper-container-9-tel .swiper-pagination-9-tel .swiper-pagination-bullet {
-        width: 20px;
-        height: 20px;
-        margin: 0 10px !important;
-    }
-
     .blog p {
         font-size: 1em;
     }
@@ -1255,20 +1017,6 @@
     }
 
     .about .ilustration {
-        padding: 30px 0 0;
-        height: 200px;
-    }
-
-    .download .ilustration {
-        padding: 30px 0 0;
-        height: 200px;
-    }
-
-    .download h2 {
-        font-size: 40px;
-    }
-
-    .faq .ilustration {
         padding: 30px 0 0;
         height: 200px;
     }
