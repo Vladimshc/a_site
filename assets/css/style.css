@@ -216,7 +216,7 @@ b {
 
 /* 2.1 Menu */
 .ms-nav {
-    padding: 2em 3em;
+    padding: 4vh 3vw;
     color: inherit;
 }
 
@@ -249,15 +249,15 @@ b {
 .hamburger-label {
     display: block;
     font-family: 'Yantramanav', Arial;
-    font-size: 16px;
+    font-size: 2vh;
     width: 100%;
     height: auto;
     position: relative;
     top: 0;
-    left: -4em;
-    padding-right: 4em;
+    left: calc(-30px - 2.5vw);
+    padding-right: 4vw;
     text-transform: uppercase;
-    line-height: 1.5em;
+    /*line-height: 2vh;*/
     color: #151515;
 }
 
@@ -273,6 +273,7 @@ b {
     display: inline-block;
     width: 30px;
     height: 20px;
+    line-height: 20px;
     vertical-align: middle;
 }
 
@@ -297,8 +298,12 @@ b {
 .hamburger-inner:after,
 .hamburger-inner:before {
     position: absolute;
+    /*min-width: 10px;*/
+    /*max-width: 30px;*/
     width: 30px;
-    height: 3px;
+    min-height: 1px;
+    max-height: 3px;
+    height: 0.3vh;
     background-color: #151515;
 }
 
@@ -627,10 +632,10 @@ b {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: .2em;
-    line-height: 2em;
-    font-size: 12px;
+    line-height: 2.4vh;
+    font-size: 1.4vh;
     width: auto;
-    height: 24px;
+    height: 2.4vh;
     background-image: none !important;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -679,19 +684,19 @@ b {
 }
 
 .swiper-button-prev:hover {
-    padding-left: 90px;
+    padding-left: 4.6vw;
 }
 
 .swiper-button-prev:hover::after {
-    width: 75px;
+    width:3.9vw;
 }
 
 .swiper-button-next:hover {
-    padding-right: 90px;
+    padding-right: 4.6vw;
 }
 
 .swiper-button-next:hover::after {
-    width: 75px;
+    width: 3.9vw;
 }
 
 /* 4.2 Slider inner info */
@@ -783,6 +788,7 @@ b {
 
 .expanded-timeline__counter {
     color: #fff;
+    font-size: 1.5vh;
 }
 
 .expanded-timeline__counter span {
@@ -795,10 +801,11 @@ b {
 
 .scroll-message {
     position: absolute;
+    height: 6vh;
     right: 0;
     color: #fff;
     opacity: .5;
-    font-size: 12px;
+    font-size: 1.4vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -823,7 +830,6 @@ b {
 /**
  * 11. Responsive Rules
  */
-
 @media only screen and (max-width: 805px) {
     h1 {
         font-size: calc(48px + 1vw);
@@ -853,7 +859,6 @@ b {
     .ms-navbar {
         position: relative;
         width: 100%;
-        min-height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1262,7 +1267,6 @@ b {
     display: flex;
     height: 100%;
     width: 100%;
-    padding-right: 146px;
 }
 
 .about .ilustration .about-img {

@@ -98,10 +98,6 @@
         margin: 0 auto;
     }
 
-    .header-1 .header-phone {
-        display: none;
-    }
-
     .masc,
     .padding-masc {
         padding: 30px 0;
@@ -116,7 +112,7 @@
         margin: 0 0 30px;
     }
 
-    
+
     .team .padding-masc,
     .features .padding-masc,
     .stats .masc {
@@ -1041,6 +1037,7 @@
 @media (max-height: 600px) {
     .header-1 .header-phone {
         padding-top: 20px;
+        width: 33.33vw;
     }
 
     .header-1 .ilustration {
@@ -1049,6 +1046,54 @@
         transform: scale(.65)
     }
 
+}
+
+@media only screen and (max-height: 600px) {
+    .nav-item__label {
+        display: none;
+    }
+
+    .container {
+        width: 95vw;
+    }
+
+    /*slide1*/
+    .header-1 h1 {
+        font-size: 6vh;
+        text-align: left;
+    }
+
+    .header-1 h2 {
+        font-size: 5vh;
+    }
+
+    .header-1 h3 {
+        font-size: 3vh;
+        text-align: left;
+        height: 40px;
+        line-height: 1.5;
+    }
+
+    .header-1 .main-title {
+        margin-left: 0px;
+        margin-right: auto;
+        width: 60vw;
+        padding: 0 0 0 10vw;
+    }
+    .header-phone .ilustration .phone-img {
+        height: 90vh;
+        width: 44.9vh;
+        border-radius: 6vh;
+    }
+
+    .header-1 .appstore,
+    .header-1 .playmarket {
+        width: 40%;
+        padding: 5px !important;
+        height: 40px;
+        font-size: 14px !important;
+        line-height: 25px;
+    }
 }
 
 
