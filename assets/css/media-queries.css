@@ -1058,7 +1058,13 @@
     }
 
     /*slide1*/
+    .header-1 .container {
+        text-align: left;
+        max-width: 95vw;
+    }
+
     .header-1 h1 {
+        width: 100%;
         font-size: 6vh;
         text-align: left;
     }
@@ -1068,6 +1074,7 @@
     }
 
     .header-1 h3 {
+        width: 100%;
         font-size: 3vh;
         text-align: left;
         height: 40px;
@@ -1080,6 +1087,11 @@
         width: 60vw;
         padding: 0 0 0 10vw;
     }
+
+    .header-1 .main-title .wrap-content {
+        width: 100%;
+    }
+
     .header-phone .ilustration .phone-img {
         height: 90vh;
         width: 44.9vh;
@@ -1093,7 +1105,21 @@
         height: 40px;
         font-size: 14px !important;
         line-height: 25px;
+        text-align: center;
     }
+
+    .header-1 .slide-1-video {
+        height: 160px;
+    }
+
+    .header-1 .slide-1-video .col-md-8 {
+        flex: 2;
+    }
+
+    .header-1 .slide-1-video .col-md-4 {
+        flex: 1;
+    }
+
 }
 
 
