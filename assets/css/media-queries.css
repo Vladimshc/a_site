@@ -1048,7 +1048,7 @@
 
 }
 
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 700px) {
     .tel-none {
         display: none;
     }
