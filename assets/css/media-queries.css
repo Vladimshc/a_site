@@ -192,7 +192,7 @@
     }
 
     .container {
-        width: 100%;
+        width: 88vw !important;
         padding-left: 0;
         padding-right: 0;
     }
@@ -241,7 +241,7 @@
     }
 
     .header-1 .header-phone .wrap-img {
-        margin-top: 9vh;
+        margin-top: 13vh;
         margin-left: 10px;
     }
 
@@ -1317,8 +1317,111 @@
         width: 100%;
         height: 45vh;
     }
-}
 
+    /*slide5*/
+    .stats .masc .head {
+        margin: 0 0 7vh 0;
+    }
+
+    .stat .white {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .stats .result span, .stats .result b {
+        font-size: 30px;
+    }
+
+
+    /*slide7*/
+    .slide-7 .header-phone .wrap-img {
+        margin-top: 10vh;
+        height: 60vh;
+    }
+
+    /*slide __9 */
+    .team .padding-masc {
+        width: 89%;
+        top: 0;
+        margin-top: calc(80px + 25vh);
+    }
+
+    .team .wrap-team {
+        top: 0;
+        width: 100%;
+        margin-top: calc(45px + 2vh);
+    }
+
+    .team .padding-masc .col-xs-6 {
+        width: 49%;
+        margin: 0 auto;
+    }
+
+    .team .post-team {
+        height: 6vh;
+        min-height: 6vh;
+        line-height: 8vh;
+        padding: 0.5vh 0 0 0;
+    }
+
+    .team .team-post-link {
+        margin-bottom: 3vh;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .team .team-item {
+        height: 45vh;
+    }
+
+    .team h4 {
+        font-size: 1.7vh;
+        margin-top: 0.5vh;
+        margin-bottom: 0;
+    }
+
+    .team p {
+        font-size: 1.5vh;
+    }
+
+    .team .team-post-link .post-team-social {
+        height: 3vh;
+        min-height: 3vh;
+        line-height: 5vh;
+    }
+
+    .team .post-team span .fab {
+        font-size: 3vh;
+    }
+
+    .team .social-link:hover span .fab {
+        font-size: 3vh;
+    }
+
+    /*slide 10*/
+    .contact-us .container {
+        width: 53vw;
+    }
+
+    .contact-us .padding-masc {
+        top: 60%;
+    }
+
+    .form-group textarea {
+        height: 18vh;
+    }
+
+    /*slide 11*/
+    .news .social-circle {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .news .wrap-social .fab {
+        font-size: 26px;
+    }
+}
 
 
 /** { outline: 2px dotted red; }*/

@@ -1684,6 +1684,10 @@ b {
     transition: opacity 1s ease 1s;
 }
 
+.contact-us .container {
+    width: 40vw;
+}
+
 .contact-us .wrap-contact-us {
     position: absolute;
     top: 15%;

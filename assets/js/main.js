@@ -111,7 +111,7 @@ function ms_home_slider() {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
             // Take the user to a different screen here.
             homeSlider = new Swiper('.swiper-container', {
-                initialSlide: 3,
+                initialSlide: 0,
                 loop: true,
                 speed: 1500,
                 grabCursor: false,
@@ -143,7 +143,7 @@ function ms_home_slider() {
             });
         } else {
             homeSlider = new Swiper('.swiper-container', {
-                initialSlide: 3,
+                initialSlide: 0,
                 loop: true,
                 speed: 1500,
                 grabCursor: false,
@@ -248,6 +248,7 @@ $(window).on('load', function () {
 function slider_slide_3() {
     if ($.exists('.swiper-container-3')) {
         var stretch =  - window.innerWidth / 40;
+        stretch = window.innerWidth < 501 ? - 50 : stretch;
         var swiper = new Swiper('.swiper-container-3', {
             initialSlide: 2,
             effect: 'coverflow',
