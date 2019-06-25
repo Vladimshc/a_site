@@ -1332,6 +1332,41 @@
         font-size: 30px;
     }
 
+    /*slide 6*/
+    .blog .padding-masc .container {
+        width: 80vw;
+    }
+
+    .blog .padding-masc .container .tel-none {
+        display: block;
+    }
+
+    .blog .blog-item {
+        height: 80px;
+    }
+
+    .blog .post-text {
+        min-height: 120px;
+        padding: 2px 20px 0px 20px;
+    }
+
+    .blog h4 {
+        font-size: 15px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .blog p {
+        font-size: 10px;
+    }
+
+    .blog .date {
+        font-size: 10px;
+    }
+
+    .blog .interactive {
+        font-size: 10px;
+    }
 
     /*slide7*/
     .slide-7 .header-phone .wrap-img {
